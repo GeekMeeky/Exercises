@@ -1,0 +1,72 @@
+
+html {
+  font-size: 22px;
+}
+
+body {
+  min-height: 100vh;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 1rem;
+  border-left: 1px solid #333;
+  border-right: 1px solid #333;
+}
+
+th,
+td {
+  border: 1px solid #333;
+  font-family: "Courier New", Courier, monospace;
+  border-collapse: separate;
+  padding: 0.5rem;
+}
+table>tbody>tr:nth-of-type(1),
+table>tbody>tr:nth-of-type(2)>td:nth-of-type(1) {
+  font-weight: bold;
+  text-align: center;
+}
+table>thead>tr>th {
+  font-weight: 100;
+}
+.imgcaption {
+  margin: 0px;
+}
+form>div:nth-of-type(1) {
+  margin-left: 35px;
+}
+ins {
+  border-bottom: 3px dotted #000;
+  text-decoration: none;
+}
+form>div>img {
+  width: 375px;
+}
+form>i>p {
+  display: inline;
+}
+.nexttoicon {
+  display: inline;
+}
+.play-icon {
+  padding-right: 7px;
+}
+.play-icon:hover {
+  cursor: pointer;
+}
+
+/* Hide the checkbox */
+#playIcon {
+  display: none; 
+}
+.hidden-paragraph {
+  display: none;
+}
+.play-icon>span {
+  padding-right: 7px;
+}
+/* Why Does not Rotate ?!?!?!*/
+#playIcon:checked + label .play-icon>span {
+  transform: rotate(90deg);
+}
+#playIcon:checked + label .hidden-paragraph {
+  display: block;
+}
