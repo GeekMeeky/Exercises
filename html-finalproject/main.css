@@ -40,14 +40,15 @@ ins {
 form>div>img {
   width: 375px;
 }
-form>i>p {
-  display: inline;
-}
+
 .nexttoicon {
   display: inline;
 }
 .play-icon {
   padding-right: 7px;
+  cursor: pointer;
+    display: inline-block; /* Ensure proper rotation for inline element */
+    transition: transform 0.3s ease; /* Add smooth transition for rotation */
 }
 .play-icon:hover {
   cursor: pointer;
@@ -64,7 +65,7 @@ form>i>p {
   padding-right: 7px;
 }
 /* Why Does not Rotate ?!?!?!*/
-#playIcon:checked + label .play-icon>span {
+#playIcon:checked + label .play-icon {
   transform: rotate(90deg);
 }
 #playIcon:checked + label .hidden-paragraph {
