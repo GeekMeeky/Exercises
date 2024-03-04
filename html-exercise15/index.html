@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>15</title>
+    <style>
+        th, td {
+        border: 1px solid white;
+        text-align: center;
+        padding: 20px;
+        }
+        thead, tbody>tr:nth-of-type(1)>td:nth-of-type(1) {
+            color: white;
+            background-color: #008B8B;
+        }
+        caption {
+            color: white;
+            font-size: 30px;
+            font-weight: bold;
+            padding: 25px;
+        }
+    </style>
+</head>
+<body style="background-color: #5F9EA0;">
+    <table>
+        <caption>Table</caption>
+        <thead >
+            <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Job</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td rowspan="5">HERO</td>
+                <td>Ali</td>
+                <td>23</td>
+                <td>Farmer</td>
+            </tr>
+            <tr>
+                <td>Mahmood</td>
+                <td>44</td>
+                <td>Teacher</td>
+            </tr>
+            <tr>
+                <td>Saman</td>
+                <td>23</td>
+                <td>Programmer</td>
+            </tr>
+            <tr>
+                <td>Maryam</td>
+                <td>53</td>
+                <td>Chief Cook</td>
+            </tr>
+            <tr>
+                <td>Soleyman</td>
+                <td>12</td>
+                <td>Student</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="4">HERO's List</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
