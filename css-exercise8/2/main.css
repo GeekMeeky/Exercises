@@ -1,0 +1,14 @@
+* {
+    margin: 0px;
+}
+body {
+    background-color: #5F9EA0;
+    background-image: url(images/background.jpg);
+    background-size: 775px 550px;
+    background-repeat: no-repeat;
+}
+p {
+    color: white;
+    font-size: 30px;
+    margin-left: 275px;
+}
