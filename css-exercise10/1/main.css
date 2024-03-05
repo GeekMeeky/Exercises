@@ -1,0 +1,31 @@
+* {
+    margin: 0px;
+}
+body {
+    background-color: #008B8B;
+}
+div {
+    height: 110px;
+}
+p {
+    text-align: center;
+    font-size: 20px;
+    color: white;
+}
+div:nth-of-type(1){
+    border: 5px solid #FFFFFF;
+}
+div:nth-of-type(2){
+    background-color: black;
+    border: 5px dotted #008B8B;
+}
+div:nth-of-type(3){
+    background-color: #6200FF;
+    border: 8px double white;
+}
+div:nth-of-type(4){
+ background-color: #B9B1ED;
+}
+div:nth-of-type(4)>p {
+    color: #6200FF;
+}

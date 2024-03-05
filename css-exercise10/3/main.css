@@ -1,0 +1,20 @@
+*{
+    margin: 0px;
+}
+body {
+    background-color: #008B8B;
+}
+div{
+    background-color: black;
+    width: 500px;
+    height: 500px;
+    border-radius: 50%;
+    margin: 100px auto;
+}
+p{
+    color: white;
+    font-size: 120px;
+    font-weight: bold;
+    line-height: 500px;
+    text-align: center;
+}
