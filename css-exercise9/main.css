@@ -1,0 +1,17 @@
+* {
+    margin: 0px;
+}
+body {
+    background: url(images/background.jpg) center no-repeat fixed;
+    background-size: cover;
+}
+div {
+    backdrop-filter: blur(7px);
+    height: 350px;
+}
+p {
+ color: white;
+ font-weight: bold;
+ font-size: 20px;
+ text-align: center;
+}
