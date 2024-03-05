@@ -1,0 +1,12 @@
+* {
+    text-align: center;
+}
+#first {
+    color: darkblue;
+}
+.second {
+    color: fuchsia;
+}
+#first, .second {
+    font-size: 25px;
+}
