@@ -1,0 +1,24 @@
+* {
+    margin: 0px;
+}
+body {
+    background: rgb(0,255,255);
+    background: linear-gradient(90deg, rgba(0,255,255,1) 0%, rgba(102,105,105,1) 100%);
+}
+div {
+    width: 400px;
+    height: 300px;
+    text-align: center;
+    margin: 100px auto;
+    background: rgb(233,130,233);
+    background: linear-gradient(0deg, rgba(233,130,233,1) 0%, rgba(108,108,108,1) 100%);
+    border: 2px solid white;
+}
+h3 {
+    color: white;
+    font-size: 25px;
+    padding: 30px 10px;
+}
+p{
+    padding: 0px 60px 0px;
+}
