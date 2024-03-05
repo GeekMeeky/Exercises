@@ -1,0 +1,23 @@
+*{
+    margin: 0px;
+}
+body{
+    background: rgb(5,220,210);
+    background: linear-gradient(0deg, rgba(5,220,210,1) 0%, rgba(4,7,83,1) 100%);
+}
+div{
+background: url(images/background.jpg) center no-repeat local;
+background-size: cover;
+width: 500px;
+height: 500px;
+margin: 100px auto;
+border: 3px solid white;
+border-radius: 15px;
+}
+p{
+    color: white;
+    line-height: 500px;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+}
