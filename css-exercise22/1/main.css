@@ -1,0 +1,30 @@
+* {
+    margin: 0px;
+}
+body {
+    background: linear-gradient(30deg, rgba(87,203,207,1) 0%, rgba(76,38,96,1) 100%) no-repeat fixed;
+    background-size: cover;
+}
+table {
+    margin: 50px auto;
+}
+caption {
+    color: white;
+    font-size: 22px;
+}
+th, td {
+    text-align: center;
+    color: white;
+    width: 95px;
+    height: 30px;
+}
+td {
+    background-color: #648199;
+    transition: all 200ms linear;
+}
+th {
+    background-color: #3B7599;
+}
+td:hover {
+    background: linear-gradient(177deg, rgba(87,203,207,1) 0%, rgba(76,38,96,1) 100%);
+}

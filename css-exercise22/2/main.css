@@ -1,0 +1,37 @@
+* {
+    margin: 0px;
+}
+body {
+    background: linear-gradient(90deg, rgba(255,33,33,0.97) 0%, rgba(30,209,54,1) 100%) no-repeat fixed;
+    background-size: cover;
+}
+table {
+    margin: 50px auto;
+}
+caption {
+    color: white;
+    font-size: 22px;
+    padding-bottom: 10px;
+}
+th, td {
+    text-align: center;
+    color: white;
+    width: 95px;
+    height: 30px;
+    border-radius: 5px;
+}
+td {
+    background-color: #d8ba5e;
+    transition: all 200ms linear;
+}
+th {
+    background-color: #d88900;
+}
+td:hover {
+    cursor: pointer;
+    background: linear-gradient(270deg, rgba(255,117,117,1) 15%, rgba(45,255,73,1) 85%);
+}
+th:hover {
+    cursor: pointer;
+    background: radial-gradient(circle, rgba(63,251,126,1) 0%, rgba(252,70,107,1) 100%);
+}
