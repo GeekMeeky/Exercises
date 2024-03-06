@@ -2,7 +2,7 @@
     margin: 0px;
 }
 body {
-    background: linear-gradient(90deg, rgba(255,33,33,0.97) 0%, rgba(30,209,54,1) 100%) no-repeat fixed;
+    background: linear-gradient(90deg, rgba(255,117,117,1) 15%, rgba(45,255,73,1) 85%) no-repeat fixed;
     background-size: cover;
 }
 table {
