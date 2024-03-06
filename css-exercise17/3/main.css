@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Vibes';
+    src: url(fonts/Great_Vibes/GreatVibes-Regular.ttf);
+}
+@font-face {
+    font-family: 'Rubik';
+    src: url(fonts/Rubik_Maps/RubikMaps-Regular.ttf);
+}
+* {
+    margin: 0px;
+}
+body {
+    background: rgb(92,77,162);
+    background: linear-gradient(0deg, rgba(92,77,162,1) 0%, rgba(204,48,49,1) 100%);
+}
+ul {
+    margin-top: 25px;
+}
+ul>li {
+    font-family: 'Rubik';
+    font-size: 30px;
+}
+div {
+    background-color: #272031;
+    width: 75vw;
+    height: 75vh;
+    margin: 39px auto;
+    border-radius: 12px;
+}
+div>h1 {
+    font-family: 'Vibes';
+    text-align: center;
+    color: #01018B;
+    text-shadow: 2px 2px #624E52;
+    font-size: 40px;
+    padding-top: 15px;
+}
+div>p{
+    color: white;
+    text-align: justify;
+    line-height: 40px;
+    padding: 20px 90px;
+    font-size: 17px;
+    margin-bottom: 10px;
+}
+div>hr {
+    width: 85%;
+    margin: -25px auto;
+    height: 5px;
+    background-color: white;
+}
