@@ -1,0 +1,42 @@
+* {
+    margin: 0px;
+}
+body {
+    background-color: black;
+}
+div {
+    background-color: white;
+    width: 250px;
+    height: 300px;
+    margin: 50px auto;
+    text-align: center;
+}
+div:hover {
+    background: rgb(173,106,169);
+    background: linear-gradient(0deg, rgba(173,106,169,1) 0%, rgba(78,102,212,1) 100%);
+}
+div:hover p{
+    color: white;
+}
+div:hover h3{
+    color: black;
+}
+div>h3 {
+    color: gray;
+    padding-top: 10px;
+    font-size: 30px;
+}
+div>p {
+    text-align: justify;
+    padding: 10px 20px;
+}
+div>button {
+    width: 75px;
+    border-radius: 25px;
+}
+div>button:hover {
+    cursor: pointer;
+    background-color: #042A5C;
+    color: white;
+}
+
