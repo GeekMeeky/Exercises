@@ -1,0 +1,57 @@
+@font-face {
+    font-family: 'Flowers';
+    src: url(fonts/Send_Flowers/SendFlowers-Regular.ttf);
+}
+* {
+    margin: 0px;
+}
+body {
+    background: url(image/sherlock.jpg) center no-repeat fixed;
+    background-size: cover;
+}
+div.container {
+    width: 300px;
+    margin: 100px auto;
+}
+div.first {
+    background: url(image/blacksize.jpg) center no-repeat local;
+    background-size: cover;
+    height: 200px;
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+div.second {
+text-align: center;
+backdrop-filter: blur(7px);
+height: 180px;
+}
+div.second>p:nth-of-type(1) {
+    font-family: 'Flowers';
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 25px;
+}
+div.second>p:nth-of-type(2) {
+    padding: 20px 0px;
+}
+ div.third {
+    background-color: black;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+ }
+ div.third>p {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    padding: 5px 0px;
+ }
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+span.material-symbols-outlined {
+    font-size: 35px;
+}
