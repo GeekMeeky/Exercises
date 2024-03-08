@@ -48,6 +48,8 @@ div.third>p {
 div.third>p:hover {
     background-color: gray;
     cursor: pointer;
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
  }
 .material-symbols-outlined {
   font-variation-settings:
