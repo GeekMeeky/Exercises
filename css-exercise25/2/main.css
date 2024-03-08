@@ -1,0 +1,87 @@
+body {
+    background: linear-gradient(0deg, rgba(243,55,65,1) 0%, rgba(16,187,185,1) 100%) center no-repeat fixed;
+}
+#mosaic_wrapper {
+    width: 85vw;
+    border: 1px solid white;
+    height: 280px;
+    margin: 50px auto;
+}
+#mosaic_wrapper .panel {
+    background: url(images/sea.jpg) no-repeat center fixed;
+}
+#mosaic_wrapper .panel:nth-of-type(1) {
+    width: 73vw;
+    height: 85px;
+    margin: 0px;
+}
+#mosaic_wrapper .panel:nth-of-type(2) {
+    width: 40vw;
+    height: 30px;
+    margin: 15px auto;
+}
+#mosaic_wrapper .panel:nth-of-type(3) {
+    width: 60vw;
+    height: 120px;
+    margin: 10px auto;
+}
+#mosaic_wrapper_second {
+    width: 85vw;
+    border: 1px solid white;
+    height: 400px;
+    margin: 20px auto;
+}
+#mosaic_wrapper_second .panel {
+   display: inline-block;
+   border: 3px solid white;
+    background: url(images/boat.jpg) no-repeat center fixed;
+}
+#mosaic_wrapper_second .panel:nth-of-type(1) {
+    width: 20vw;
+    height: 180px;
+    margin-top: 215px;
+}
+#mosaic_wrapper_second .panel:nth-of-type(2) {
+    width: 40vw;
+    height: 380px;
+}
+#mosaic_wrapper_second .panel:nth-of-type(3) {
+    width: 23vw;
+    height: 250px;
+}
+#mosaic_wrapper_third {
+    width: 85vw;
+    border: 1px solid white;
+    height: 320px;
+    margin: 20px auto;
+}
+#mosaic_wrapper_third .panel {
+    width: 14vw;
+    height: 290px;
+    margin: 10px auto;
+    background: url(images/cat.jpg) center center no-repeat local;
+    background-size: cover;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+#mosaic_wrapper_third>.panel>p {
+    color: white;
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    padding: 120px 10px;
+    margin: 0px;
+}
+#mosaic_wrapper_third>.panel:hover {
+    background: url(images/dog.jpg) center center no-repeat local;
+    background-size: cover;
+}
+#mosaic_wrapper_third>.panel:hover span {
+    display: none;
+}
+#mosaic_wrapper_third>.panel:hover p::after {
+    content: "the text changed";
+    color: red;
+    font-size: 20px;
+    font-weight: bold;
+}

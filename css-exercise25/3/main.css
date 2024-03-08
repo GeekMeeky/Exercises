@@ -1,0 +1,31 @@
+body {
+    background: linear-gradient(0deg, rgba(3,90,155,1) 0%, rgba(10,188,187,1) 100%) center no-repeat fixed;
+}
+nav {
+    background-color: white;
+    width: 85vw;
+    height: 5vh;
+    margin: 20px auto;
+}
+nav>ul>li {
+    display: inline;
+    line-height: 5vh;
+    padding-right: 50px;
+}
+a{
+    text-decoration: none;
+}
+section {
+    width: 85vw;
+    margin: 20px auto;
+    border: 1px solid white;
+}
+section>h1 {
+    text-align: center;
+    color: white;
+    font-size: 35px;
+}
+section>p {
+    text-align: justify;
+    padding: 10px 40px;
+}
