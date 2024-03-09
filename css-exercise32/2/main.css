@@ -1,0 +1,37 @@
+div {
+    margin-top: 20px;
+}
+div.first {
+    position: relative;
+    background-color: #808080;
+    height: 200px;
+    border: 4px solid aqua;
+}
+div.first>p {
+    margin: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+div.second {
+    background-color: #808080;
+    height: 200px;
+    border: 4px solid rgb(0, 255, 136);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.second>p {
+   
+}
+div.third {
+    background-color: #808080;
+    height: 200px;
+    border: 4px solid rgb(233, 51, 51);
+}
+div.third>p {
+   margin: 0px;
+   line-height: 200px;
+   text-align: center;
+}
