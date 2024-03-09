@@ -1,0 +1,58 @@
+body {
+    background-color: #5F9EA0;
+}
+div.container {
+    display: flex;
+}
+div.visible {
+    height: 230px;
+}
+div.visible>p {
+    color: white;
+}
+div.visible>div {
+    background-color: #50FF9F;
+    width: 200px;
+    height: 65px;
+    overflow: visible;
+}
+
+div.hidden {
+    margin-left: 30px;
+}
+div.hidden>p {
+    color: white;
+}
+div.hidden>div {
+    background-color: #50FF9F;
+    width: 200px;
+    height: 65px;
+    border: 1px solid;
+    overflow: hidden;
+}
+div.scroll {
+    height: 200px;
+}
+div.scroll>p {
+    color: white;
+}
+div.scroll>div {
+    background-color: #50FF9F;
+    width: 200px;
+    height: 100px;
+    border: 1px solid;
+    overflow: scroll;
+}
+div.auto {
+    height: 185px;
+}
+div.auto>p {
+    color: white;
+}
+div.auto>div {
+    background-color: #50FF9F;
+    width: 200px;
+    height: 65px;
+    border: 1px solid;
+    overflow: auto;
+}
