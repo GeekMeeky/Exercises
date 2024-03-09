@@ -1,0 +1,35 @@
+body {
+    margin: 0px;
+    background-color: gray;
+  }
+
+.container {
+    background: radial-gradient(circle, rgba(251,151,63,1) 0%, rgba(70,251,252,1) 100%);
+    width: 90%;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    overflow-y: auto;
+    max-height: 400px;
+  }
+
+.content {
+    padding: 20px;
+  }
+.container::-webkit-scrollbar {
+    width: 15px;
+  }
+
+.container::-webkit-scrollbar-track {
+    background: #ffc79a;
+    border-radius: 5px;
+  }
+
+.container::-webkit-scrollbar-thumb {
+    background: #db7800;
+    border-radius: 5px;
+  }
+.container::-webkit-scrollbar-thumb:hover {
+    background: #03ffff;
+  }
