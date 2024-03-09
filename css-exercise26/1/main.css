@@ -1,0 +1,95 @@
+body {
+    background-color: black;
+}
+div.sticky {
+    position: sticky;
+    top: 0;
+    background-color: gray;
+    width: 80vw;
+    margin: 20px auto;
+    text-align: center;
+    height: 70px;
+    border-radius: 40px;
+}
+@media (top: 50vh) {
+    div.sticky {
+        position: static;
+    }
+}
+div.sticky>p {
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0px;
+    line-height: 70px;
+}
+div.fixed {
+    position: fixed;
+    top: 20vh;
+    left: 10vw;
+    background-color: white;
+    width: 80vw;
+    text-align: center;
+    height: 70px;
+    border-radius: 40px;
+}
+div.fixed>p {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 0px;
+    line-height: 70px;
+}
+div.relative {
+    position: relative;
+    top: 300px;
+    text-align: center;
+}
+div.relative>p {
+    color: white;
+    font-size: 25px;
+}
+div.sanji {
+    position: relative;
+    top: 300px;
+    text-align: center;
+}
+div.sanji>img {
+    width: 325px;
+    height: 500px;
+    border-radius: 50px;
+}
+div.lorem-first {
+    margin: 360px 0px 0px 15px;
+}
+div.lorem-first>p {
+    color: white;
+    width: 600px;
+}
+p.absolute {
+    position: absolute;
+    left: 45vw;
+    top: 168vh;
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+div.zoro {
+    position: relative;
+    top: 200px;
+    text-align: center;
+}
+div.zoro>img {
+    width: 325px;
+    height: 450px;
+    border-radius: 50px;
+}
+div.lorem-second {
+    position: relative;
+    bottom: 185px;
+    margin-left: 10px;
+}
+div.lorem-second>p {
+    color: white;
+    width: 560px;
+    text-align: justify;
+}
