@@ -6,9 +6,17 @@ div.float {
     float: left;
     margin-top: 50px;
     margin-bottom: 100px;
-    width: 506px;
     height: 100px;
     text-align: center;
+}
+div.float:nth-of-type(1) {
+    width: 33%;
+}
+div.float:nth-of-type(2) {
+    width: 34%;
+}
+div.float:nth-of-type(3) {
+    width: 33%;
 }
 div.float>p {
     line-height: 100px;
@@ -30,7 +38,7 @@ div.img-first {
     float: left;
     background: url(images/lion.jpg) center no-repeat local;
     background-size: cover;
-    width: 745px;
+    width: 49%;
     height: 450px;
     margin:0px 10px 15px 10px;
 }
@@ -38,6 +46,6 @@ div.img-second {
     float: left;
     background: url(images/cat.jpg) center no-repeat local;
     background-size: cover;
-    width: 745px;
+    width: 49%;
     height: 450px;
 }
