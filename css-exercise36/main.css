@@ -1,0 +1,53 @@
+body {
+    background: url(image/background.jpg) center no-repeat fixed;
+    background-size: cover;
+}
+div.container {
+    overflow: hidden;
+    width: 275px;
+    height: 375px;
+    margin: 150px auto;
+    background-color: gray;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    border-radius: 10px;
+}
+div.container>h2 {
+    text-align: center;
+    margin: 0px;
+}
+div.container>p {
+    color: white;
+    text-align: justify;
+    padding: 15px;
+    font-size: 14px;
+    margin: 0px;
+}
+.cloud-icon {
+    position: relative;
+    top: -20px;
+    width: 80px;
+    height: 80px;
+    background-color: #000;
+    border-radius: 50% 50% 50% 50% / 50% 50% 50% 50%;
+    margin: 0px auto;
+}
+.cloud-icon::before,
+.cloud-icon::after {
+    content: '';
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #000;
+    border-radius: 50%;
+}
+
+.cloud-icon::before {
+      top: -5px;
+      left: -25px;
+}
+
+.cloud-icon::after {
+      top: -5px;
+      left: 55px;
+}
