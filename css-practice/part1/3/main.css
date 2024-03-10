@@ -1,0 +1,36 @@
+body {
+    background: linear-gradient(0deg, rgba(17,236,243,1) 0%, rgba(249,252,252,1) 100%) center no-repeat fixed;
+    margin: 0px;
+}
+div.background {
+    margin: 0px auto;
+    background: url(image/back-ocean.jpg) center center no-repeat local;
+    background-size: cover;
+    width: 40vw;
+    height: 100vh;
+}
+div.container {
+    width: 20vw;
+    margin: 0px auto;
+    height: 100vh;
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+    backdrop-filter: blur(5px);
+    text-align: center;
+    color: white;
+}
+div.img {
+    background: url(image/ocean.jpg) center no-repeat local;
+    background-size: cover;
+    width: 18vw;
+    height: 18vw;
+    margin: 0px auto;
+}
+div.container>h2 {
+   font-size: 40px;
+   margin: 20px auto;
+}
+div.container>p {
+    text-align: justify;
+    padding: 0px 30px;
+}

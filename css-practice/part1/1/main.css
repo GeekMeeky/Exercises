@@ -1,0 +1,28 @@
+body {
+    background: url(Image/background.jpg) center no-repeat fixed;
+    background-size: cover;
+}
+body>div {
+}
+body>div>p:nth-of-type(1) {
+    font-family: monospace;
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    margin-left: 475px;
+}
+body>p:nth-of-type(1) {
+   text-align: center;
+   font-size: 40px;
+   margin: 100px auto;
+}   
+button {
+    background: linear-gradient(0deg, rgba(255,225,0,1) 0%, rgba(255,85,0,1) 100%);
+    width: 200px;
+    height: 50px;
+    border-radius: 10px;
+    border: 3px solid white;
+    font-size: 23px;
+    display: block;
+    margin: 10px auto;
+}
