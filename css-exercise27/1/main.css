@@ -31,6 +31,7 @@ body {
 .layer-middle {
     background-color: #e74c3c;
     z-index: 0;
+    transform-origin: 0 0 0;
 }
   
 .layer-front {
@@ -42,10 +43,15 @@ body {
     align-items: center;
     color: white;
     transform-origin: left center;
+    transform-origin: 0 0 0;
 }
   
 .layer-front h2 {
     margin-bottom: 10px;
+}
+.layer-front p {
+    text-align: justify;
+    padding: 30px 20px;
 }
 .card:hover .layer-front {
     transform: rotateY(-70deg);
