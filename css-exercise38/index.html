@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>38</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <h2>Survey Form</h2>
+    <form action="">
+        <div class="info">
+            <label for="name">Name</label>
+            <input id="name" type="text">
+            <label for="email">Email</label>
+            <input id="email" type="email">
+            <label for="age">Age</label>
+            <input id="age" type="number">
+            <label for="jobs">Which option best describes you?</label>
+            <input list="jobs">
+            <datalist id="jobs">
+            <option value="Student">
+            <option value="Amatur">
+            <option value="Professional">
+            </datalist>  
+        </div>
+        <div class="radio">
+            <label for="">Would you recommend W3Schools to a friend?</label>
+            <input type="radio" id="agree" name="recommend">
+            <label for="agree">Yes</label>
+            <br>
+            <input type="radio" id="notagree" name="recommend">
+            <label for="notagree">No</label>
+            <br>
+            <input type="radio" id="refused" name="recommend">
+            <label for="refused">Maybe</label> 
+        </div>
+        <div class="languages">
+            <label for="lang1">Languages and frameworks known (Check all that apply):</label>
+            <input type="checkbox" id="lang1" name="lang1">
+            <label for="lang1">C</label>
+            <br>
+            <input type="checkbox" id="lang2" name="lang2">
+            <label for="lang2">C++</label>
+            <br>
+            <input type="checkbox" id="lang3" name="lang3">
+            <label for="lang3">C#</label>
+            <br>
+            <input type="checkbox" id="lang4" name="lang4">
+            <label for="lang4">Java</label>
+            <br>
+            <input type="checkbox" id="lang5" name="lang5">
+            <label for="lang5">Python</label>
+            <br>
+            <input type="checkbox" id="lang6" name="lang6">
+            <label for="lang6">Javascript</label>
+            <br>
+            <input type="checkbox" id="lang7" name="lang7">
+            <label for="lang7">React</label>
+            <br>
+            <input type="checkbox" id="lang8" name="lang8">
+            <label for="lang8">Angular</label>
+            <br>
+            <input type="checkbox" id="lang9" name="lang9">
+            <label for="lang9">Django</label>
+            <br>
+            <input type="checkbox" id="lang10" name="lang10">
+            <label for="lang10">Spring</label>
+            <br>
+        </div>
+        <div class="text">
+           <label for="suggestion">Any comments or suggestion</label>
+            <textarea name="suggestion" id="suggestion" cols="50" rows="5"></textarea> 
+        </div>
+        <div class="button">
+            <input type="submit" value="Submit">
+            <br>
+        </div>
+        
+    </form>
+</body>
+</html>
