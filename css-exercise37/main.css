@@ -1,0 +1,40 @@
+body {
+    background: linear-gradient(0deg, rgba(82,129,132,1) 0%, rgba(78,203,194,1) 100%) center no-repeat fixed;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+button {
+    background-color: black;
+    width: 30px;
+    height: 30px;
+    margin: 20px auto 0px auto;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+}
+.summary-paragraph {
+    text-align: justify;
+    position: absolute;
+    top: 95px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.7);
+    width: 375px;
+    height: 225px;
+    border-radius: 5px;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0.3s ease;
+}
+.summary-paragraph>p {
+    margin: 0px;
+    padding: 25px;
+    color: white;
+}
+.container:hover .summary-paragraph {
+    visibility: visible;
+    opacity: 1;
+}
