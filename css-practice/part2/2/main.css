@@ -1,0 +1,47 @@
+* {
+    margin: 0px;
+}
+body {
+    background-color: gray;
+}
+div.container {
+    margin-left: 20px;
+    margin-top: 40px;
+}
+div.container>div {
+    width: 150px;
+    background-color: #414140;
+    margin-bottom: 2px;
+}
+p {
+    display: inline-block;
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+    padding-left: 5px;
+}
+span {
+    border-right: 2px solid black;
+    height: 28px;
+    color: aqua;
+}
+div.container>div:hover {
+    cursor: pointer;
+    background-color: aqua;
+}
+div.container>div:hover p{
+    color: black;
+}
+div.container>div:hover span{
+    color: black;
+}
+div.container>div:active {
+    cursor: pointer;
+    background-color: #0556FA;
+}
+div.container>div:active p {
+    color: white;
+}
+div.container>div:active span {
+    color: white;
+}

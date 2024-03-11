@@ -1,0 +1,73 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+div.night {
+    background: url(images/night.avif) center no-repeat fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.night>button {
+    width: 275px;
+    color: white;
+    background-color: #004984;
+    text-align: center;
+    border: none;
+    font-size: 30px;
+    border-radius: 5px;
+    padding: 10px 0px;
+}
+div.text1 {
+    background: linear-gradient(0deg, rgba(186,72,196,1) 0%, rgba(19,80,142,1) 100%);
+    color: white;
+    padding: 50px 20px;
+}
+div.sea {
+    background: url(images/sea.avif) center no-repeat fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.sea>button {
+    width: 275px;
+    color: white;
+    background-color: #003FEC;
+    text-align: center;
+    border: none;
+    font-size: 30px;
+    border-radius: 5px;
+    padding: 10px 0px;
+}
+div.text2 {
+    background: linear-gradient(0deg, rgba(0,128,59,1) 0%, rgba(0,135,238,1) 100%);
+    color: white;
+    padding: 50px 20px;
+}
+div.waterfall {
+    background: url(images/waterfall.avif) center no-repeat fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.waterfall>button {
+    width: 275px;
+    color: white;
+    background-color: #00B6A2;
+    text-align: center;
+    border: none;
+    font-size: 30px;
+    border-radius: 5px;
+    padding: 10px 0px;
+}
+div.text3 {
+    background-color: #1CA8FF;
+    color: white;
+    padding: 50px 20px;
+}

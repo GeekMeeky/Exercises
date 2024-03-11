@@ -1,0 +1,43 @@
+body {
+    background: linear-gradient(270deg, rgba(45,62,76,1) 15%, rgba(190,195,193,1) 85%) center no-repeat fixed;
+}
+div {
+    border: 2px solid white;
+    width: 250px;
+    height: 300px;
+    text-align: center;
+    margin: 20px auto;
+}
+span.material-symbols-outlined {
+    display: block;
+    font-size: 230px;
+}
+div>h2 {
+    color: aqua;
+    font-family: cursive;
+    font-size: 30px;
+    margin-top: 10px;
+}
+div>p {
+    opacity: 0;
+    text-align: justify;
+    padding: 10px 30px;
+}
+div:hover {
+    background: linear-gradient(270deg, rgba(28,91,152,1) 15%, rgba(66,202,164,1) 85%);
+}
+div:hover span.material-symbols-outlined {
+    display: none;
+}
+div:hover p {
+    opacity: 1;
+    color: white;
+    transition: all 900ms linear;
+}
+div:hover h2 {
+    font-size: 45px;
+    margin-bottom: 0px;
+    color: #081845;
+    transition: all 500ms linear;
+}
+
