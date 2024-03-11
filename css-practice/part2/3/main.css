@@ -19,7 +19,7 @@ div>h2 {
     margin-top: 10px;
 }
 div>p {
-    opacity: 0;
+    visibility: hidden;
     text-align: justify;
     padding: 10px 30px;
 }
@@ -30,7 +30,7 @@ div:hover span.material-symbols-outlined {
     display: none;
 }
 div:hover p {
-    opacity: 1;
+    visibility: visible;
     color: white;
     transition: all 900ms linear;
 }
