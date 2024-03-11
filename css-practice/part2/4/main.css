@@ -1,0 +1,40 @@
+body {
+    background: linear-gradient(0deg, rgba(2,74,138,1) 0%, rgba(1,5,37,1) 100%) center no-repeat fixed;
+    box-sizing: border-box;
+}
+div {
+    background: linear-gradient(270deg, rgba(92,92,92,1) 15%, rgba(56,56,56,1) 85%);
+    border: 2px solid white;
+    width: 250px;
+    height: 250px;
+    text-align: center;
+    margin: 20px auto;
+}
+span.material-symbols-outlined {
+    display: block;
+    font-size: 200px;
+}
+div>h2 {
+    color: gray;
+    font-family: monospace;
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+}
+div>p {
+    visibility: hidden;
+    text-align: justify;
+    padding: 10px 30px;
+    margin: 0px;
+}
+div:hover {
+
+}
+div:hover p {
+    margin-top: 8px;
+    visibility: visible;
+    color: black;
+    transition: all 500ms ease-in-out;
+    background-color: white;
+}
+
