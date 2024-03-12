@@ -1,0 +1,11 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    background: url(image/galaxy.jpg) center no-repeat fixed;
+    background-size: cover;
+}
+div {
+    
+}
