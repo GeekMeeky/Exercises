@@ -1,0 +1,38 @@
+span {
+    color: white;
+}
+div.vertical {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #555555;
+    width: 4vw;
+    height: 30vh;
+}
+div.vertical>span {
+    width: 4vw;
+    height: 6vh;
+    line-height: 6vh;
+}
+div.vertical>span:nth-of-type(1) {
+    background-color: #09044D;
+}
+div.horizontal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #555555;
+    margin-top: 5vw;
+    height: 7vh;
+}
+div.horizontal>span {
+    height: 7vh;
+    line-height: 7vh;
+    width: 20vw;
+    text-align: center;
+}
+div.horizontal>span:nth-of-type(1) {
+    background-color: #09044D;
+}
