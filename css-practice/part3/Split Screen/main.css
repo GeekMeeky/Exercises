@@ -1,0 +1,44 @@
+* {
+    margin: 0px;
+}
+body {
+    display: flex;
+}
+div.lion {
+    background-color: #858585;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+div.lion>img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+div.lion>h3 {
+    padding: 20px 0px;
+}
+div.dog {
+    background-color: #000000;
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+div.dog>img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+div.dog>h3 {
+    color: white;
+    padding: 20px 0px;
+}
+div.dog>p {
+    color: white;
+}
