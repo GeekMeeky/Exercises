@@ -1,0 +1,20 @@
+* {
+    margin: 0px;
+}
+body {
+    display: flex;
+}
+div.sidenav {
+    background-color: #2B2A2A;
+    width: 10vw;
+    height: 100vh;
+}
+div.sidenav>p {
+    color: white;
+    height: 5vh;
+    line-height: 5vh;
+    padding-left: 10px;
+}
+div.sidenav>p:nth-of-type(1) {
+    background-color: #2144A7;
+}
