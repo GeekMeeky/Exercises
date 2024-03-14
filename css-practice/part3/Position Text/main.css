@@ -1,0 +1,110 @@
+* {
+    margin: 0px;
+}
+div.navbar {
+    background-color: #C2C2C1;
+    margin: 0px;
+    display: flex;
+    height: 7vh;
+    align-items: center;
+}
+div.home, div.news, div.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4vw;
+    height: 7vh;
+}
+div.home:hover, div.news:hover, div.contact:hover{
+    cursor: pointer;
+    color: white;
+    background-color: black;
+}
+div.help{
+    cursor: pointer;
+    background-color: #079FA6;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 82vw;
+    height: 7vh;
+    width: 75px;
+}
+div.lion {
+    background: url(images/lion.jpg) center no-repeat fixed;
+    background-size: cover;
+    
+    height: 93vh;
+}
+div.lion>p:nth-of-type(1){
+    width: 4vw;
+    text-align: center;
+    color: white;
+}
+div.lion>p:nth-of-type(2){
+    width: 5vw;
+    color: white;
+    position: relative;
+    text-align: center;
+    left: 93vw;
+    top: -2vh;
+}
+div.lion>p:nth-of-type(3){
+    font-size: 25px;
+    width: 6vw;
+    text-align: center;
+    color: #179FAE;
+    position: relative;
+    top: 40vh;
+    left: 46vw;
+}
+div.lion>p:nth-of-type(4){
+    width: 6vw;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 80vh;
+}
+div.lion>p:nth-of-type(5){
+    width: 6vw;
+    color: white;
+    text-align: center;
+    position: relative;
+    top: 78vh;
+    left: 92vw
+}
+div.middle {
+    height: 20vh;
+    background-color: #4E4E4D;
+}
+div.middle>p {
+    text-align: center;
+    color: white;
+    line-height: 17vh;
+    font-size: 25px;
+}
+div.cat {
+    background: url(images/cat.jpg) center no-repeat fixed;
+    background-size: cover;
+    height: 83vh;
+}
+div.box {
+    position: relative;
+    top: 62vh;
+    left: 83vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    width: 15vw;
+    height: 20vh;
+}
+div.box>h2 {
+    color: #079FA6;
+}
+div.box>p {
+    color: white;
+}
