@@ -1,0 +1,65 @@
+* {
+    margin: 0px;
+}
+body {
+    background: linear-gradient(0deg, rgba(64,171,166,1) 0%, rgba(47,63,77,1) 100%) center no-repeat fixed;
+}
+h1 {
+    width: 54vw;
+    margin: 30px auto 20px auto;
+    font-size: 40px;
+}
+hr {
+    width: 54vw;
+    margin: 0px auto;
+}
+h3 {
+    width: 54vw;
+    margin: 15px auto 20px auto;
+}
+section {
+    margin: 10px auto;
+    width: 54vw;
+    background-color: white;
+}
+div.horse {
+    width: 17vw;
+    display: inline-block;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    top: -10px;
+}
+div.horse>img {
+    width: 16vw;
+    height: 50vh;
+    padding-top: 10px;
+}
+div.horse>* {
+    padding-left: 1vw;
+}
+div.horse:nth-of-type(1) {
+
+}
+div.horse:nth-of-type(2) {
+    left: 1vw;
+}
+div.horse:nth-of-type(3) {
+    left: 2vw;
+}
+div.lion {
+
+}
+div.lion>* {
+    padding-left: 1vw;
+}
+div.lion>img {
+    width: 52vw;
+    height: 75vh;
+}
+div.lion>h4 {
+    font-size: 23px;
+    padding: 20px 0px 20px 1vw;
+}
+div.lion>p {
+    padding-bottom: 2vh;
+}
