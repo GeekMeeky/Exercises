@@ -1,0 +1,9 @@
+img {
+    width: 200px;
+    height: 150px;
+    position: sticky;
+    top: 0;
+}
+p.back {
+    font-weight: bold;
+}
