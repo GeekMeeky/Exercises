@@ -1,0 +1,27 @@
+* {
+    margin: 0px;
+}
+body {
+    background: linear-gradient(0deg, rgba(66,66,66,1) 0%, rgba(1,1,1,1) 100%) center no-repeat fixed;
+}
+div.container {
+    background: url(images/cat.jpg) center no-repeat local;
+    background-size: cover;
+    width: 40vw;
+    height: 60vh;
+    margin: 20vh auto 0px auto;
+}
+div.heading {
+    position: relative;
+    background-color: #e0e0e091;
+    top: 45vh;
+    height: 15vh;
+}
+h2 {
+    color: white;
+    text-align: center;
+    padding: 15px 0px;
+}
+p {
+    text-align: center;
+}
