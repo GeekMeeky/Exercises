@@ -1,0 +1,35 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+div.sticky {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #1E2C3E;
+    color: white;
+    height: 17vh;
+}
+div.header {
+    position: sticky;
+    top: 0;
+    background-color: white;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.main {
+    background-color: #181F2F;
+}
+div.main>p {
+    text-align: justify;
+    color: white;
+    width: 94vw;
+    margin: 0px auto;
+    padding-top: 20px;
+}
+div.main>p:last-child {
+    padding-bottom: 30px;
+}
