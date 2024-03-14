@@ -1,0 +1,32 @@
+* {
+    margin: 0px;
+}
+div.navbar {
+    background-color: #C2C2C1;
+    margin: 10px;
+    display: flex;
+    height: 7vh;
+    align-items: center;
+}
+div.home, div.news, div.contact {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 4vw;
+    height: 7vh;
+}
+div.home:hover, div.news:hover, div.contact:hover{
+    cursor: pointer;
+}
+div.help{
+    cursor: pointer;
+    background-color: #03A7E7;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    left: 82vw;
+    height: 7vh;
+    width: 75px;
+}
