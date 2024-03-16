@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+}
+body {
+    background: url(images/background.jpg) center no-repeat fixed;
+    background-size: cover;
+}
+div.form {
+    backdrop-filter: blur(20px);
+    width: 22vw;
+    height: 55vh;
+    margin: 20vh auto 0px auto;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h2 {
+    color: white;
+    padding-top: 40px;
+    padding-bottom: 20px;
+}
+input[type=text] {
+    background-color: rgba(128, 128, 128, 0);
+    border-radius: 30px;
+    width: 17vw;
+    height: 5vh;
+    border: 2px solid rgba(128, 128, 128, 0.50);
+    margin-bottom: 20px;
+}
+input[type=text]::placeholder {
+    color: white;
+    padding-left: 10px;
+    background: url(images/person.png) center no-repeat;
+    background-position-x: 15vw;
+}
+input[type=password] {
+    background-color: rgba(128, 128, 128, 0);
+    border-radius: 30px;
+    width: 17vw;
+    height: 5vh;
+    border: 2px solid rgba(128, 128, 128, 0.50);
+}
+input[type=password]::placeholder {
+    color: white;
+    padding-left: 10px;
+    background: url(images/lock.svg) center no-repeat;
+    background-position-x: 235px;
+}
+input[type=checkbox] {
+    position: relative;
+    left: -8vw;
+    top: 3vh;
+}
+input[type=checkbox]:checked {
+    accent-color: white;
+}
+label {
+    color: white;
+    position: relative;
+    left: -4vw;
+    top: 4px;
+}
+a.forgot {
+    text-decoration: none;
+    color: white;
+    position: relative;
+    top: -2vh;
+    left: 11vh;
+}
+a.forgot:hover {
+    text-decoration: underline;
+}
+input[type=submit] {
+    border-radius: 30px;
+    width: 17vw;
+    height: 5vh;
+    border: none;
+    cursor: pointer;
+}
+p {
+    color: white;
+    padding-top: 15px;
+}
+a.signup {
+    text-decoration: none;
+    color: blue;
+}
