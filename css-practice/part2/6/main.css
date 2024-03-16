@@ -7,5 +7,43 @@ body {
     background-size: cover;
 }
 div {
-    
+    width: 455px;
+    height: 455px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.2);
+    margin: 0px auto;
+    position: relative;
+    top: -1vh;
+}
+div:hover {
+    border: 3px solid rgb(235, 229, 229);
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: all 200ms linear;
+}
+h3 {
+    font-size: 5px;
+    visibility: hidden;
+    color: gray;
+    text-align: center;
+    transform: translate(0px, 20px);
+}
+div:hover h3 {
+    font-size: 22px;
+    visibility: visible;
+    transition: all 500ms linear;
+    transform: translate(0px, 50px);
+}
+p {
+    visibility: hidden;
+    font-size: 10px;
+    text-align: center;
+    transform: translate(0px, 10px);
+}
+div:hover p {
+    color: white;
+    visibility: visible;
+    font-size: 17px;
+    text-align: justify;
+    padding: 70px 70px 0px 70px;
+    transition: all 500ms ease;
 }
