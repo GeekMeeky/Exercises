@@ -1,0 +1,58 @@
+/* source: https://dev.to/adbutterfield/custom-styling-radio-buttons-the-modern-way-the-butterfield-way-emk */
+* {
+    margin: 0px;
+}
+body {
+    background-color: #212120;
+}
+p {
+    text-align: center;
+    margin-top: 5vh;
+    color: #c7cbca;
+    font-size: 25px;
+}
+form {
+    margin: 30px auto 10px auto;
+    width: 25vw;
+    text-align: center;
+}
+div {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+hr {
+    border: 1px solid #2E2F2D;
+}
+input[type=radio] {
+    box-sizing: border-box;
+    width: 30px;
+    height: 30px;
+    margin: 6px;
+    padding: 0px;
+    border: 3px solid rgb(194, 191, 191);
+    border-radius: 50%;
+    appearance: none;
+    background-color: #212120;
+}
+input[type="radio"]:not(:disabled):checked {
+    border: 5px solid #1290FC;
+    background-color: #1290FC;
+    background-clip: content-box;
+    padding: 4px;
+}
+label {
+    color: rgb(218, 216, 216);
+    font-size: 23px;
+    padding-left: 10px;
+}
+div:hover label {
+    color: white;
+}
+div:hover input[type=radio] {
+    border: 3px solid rgb(255, 255, 255);
+    cursor: pointer;
+}
+input[type="radio"]:checked + label {
+    color: #1290FC;
+}
