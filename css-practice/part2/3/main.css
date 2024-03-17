@@ -19,6 +19,7 @@ div>h2 {
     margin-top: 10px;
 }
 div>p {
+    font-size: 10px;
     visibility: hidden;
     text-align: justify;
     padding: 10px 30px;
@@ -30,9 +31,10 @@ div:hover span.material-symbols-outlined {
     display: none;
 }
 div:hover p {
+    font-size: 16px;
     visibility: visible;
     color: white;
-    transition: all 900ms linear;
+    transition: all 600ms linear;
 }
 div:hover h2 {
     font-size: 45px;
