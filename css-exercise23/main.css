@@ -6,11 +6,16 @@ body {
     background-size: cover;
 }
 table {
-    margin: 50px auto;
+    margin: 0px auto;
 }
-caption {
+p {
+    font-family: monospace;
     color: white;
-    font-size: 22px;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    visibility: hidden;
 }
 th, td {
     text-align: center;
@@ -20,7 +25,6 @@ th, td {
 }
 td {
     background-color: #648199;
-    transition: all 200ms linear;
 }
 th {
     background-color: #3B7599;
@@ -28,10 +32,17 @@ th {
 td:hover {
     background: linear-gradient(177deg, rgba(87,203,207,1) 0%, rgba(76,38,96,1) 100%);
 }
-tbody, caption {
+tbody {
    visibility: hidden;
 }
-
 thead:hover + tbody{
 visibility: visible;
+}
+/* Does Not Work!!! */
+div:hover p {
+   visibility: visible;
+}
+/* Does Not Work!!! */
+div:hover table {
+    border: 1px solid rgba(63, 63, 63, 0.3);
 }
