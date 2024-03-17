@@ -13,24 +13,20 @@ section {
     margin: 100px auto 0px auto;
     border: 1px solid white;
 }
-section>h2 {
+h2 {
     color: aqua;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 50px;
     font-size: 23px;
-    transition: all 200ms linear;
-}
-.hide {
-    opacity: 0;
-    transform: translateY(20px);
-    transition: all 400ms linear;
 }
 .hide>p {
+    visibility: hidden;
     color: white;
     text-align: justify;
     padding: 10px 25px;
 }
 .hide>button {
+    visibility: hidden;
     display: block;
     margin: 0px auto;
     background-color: rgba(12, 255, 255, 0.915);
@@ -43,13 +39,23 @@ section>h2 {
     border-bottom-right-radius: 15px;
 }
 section:hover .hide{
-    opacity: 1;
-    transform: translateY(0px);
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0) 10%, rgba(40, 255, 255, 0.9) 100%); 
+}
+section:hover p {
+    visibility: visible;
+    transform: translate(0px,-20px);
+    transition: all 500ms linear;
+}
+section:hover button {
+    visibility: visible;
+    transform: translate(0px,-20px);
+    transition: all 500ms linear;
 }
 section:hover h2{
-    transform: translate(-35px,-12px);
+    transform: translate(-35px,-30px);
     color: black;
+    transition: all 400ms linear;
 }
-section:hover {
-    background: linear-gradient(0deg, rgba(0, 0, 0, 0) 54%, rgba(0,255,255,1) 100%); 
+section:not(:hover) h2 {
+    transition: all 400ms linear;
 }
