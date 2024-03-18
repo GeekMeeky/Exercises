@@ -1,0 +1,70 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section.left{
+    width: 66vw;
+    height: 95vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+section.left>div.top {
+    
+    display: flex;
+    margin-bottom: 5px;
+}
+section.left>div.top>div.caption {
+    width: 45vw;
+    height: 43vh;
+    background-color: #757575;
+    margin-right: 5px;
+}
+section.left>div.top>div.pic {
+    width: 20vw;
+    height: 43vh;
+    background: url(image/saturn.jpg) center no-repeat local;
+    background-size: cover;
+    margin-right: 5px;
+}
+section.left>div.bottom {
+    height: 50vh;
+    display: flex;
+}
+section.left>div.bottom>div.pic {
+    width: 20vw;
+    height: 50vh;
+    background: url(image/moon.jpg) center no-repeat local;
+    background-size: cover;
+    margin-right: 5px;
+}
+section.left>div.bottom>div.caption {
+    width: 45vw;
+    height: 50vh;
+    background-color: #757575;
+    margin-right: 5px;
+}
+section.right {
+    margin-bottom: 0px;
+    width: 23vw;
+    height: 94vh;
+    background: url(image/sky.jpg) center no-repeat local;
+    background-size: cover;
+}
+div.caption>h3 {
+    color: white;
+    text-align: center;
+    font-size: 23px;
+}
+div.caption>p {
+    text-align: justify;
+    font-size: 13px;
+    padding: 10px 20px;
+}
