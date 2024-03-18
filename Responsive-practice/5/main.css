@@ -1,0 +1,62 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    padding: 10px 10px;
+    height: 100vh;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+    grid-template-areas: "one one two two "
+                       "one one three three "
+                       "four five eight nine "
+                       "seven six eight nine ";
+}
+div:nth-of-type(1) {
+    background: url(images/1.jpg) center no-repeat local;
+    background-size: cover;
+    grid-area: one;
+}
+div:nth-of-type(2) {
+    background: url(images/2.jpg) center no-repeat local;
+    background-size: cover;
+    grid-area: two;
+}
+div:nth-of-type(3) {
+    background: url(images/3.jpg) center no-repeat local;
+    background-size: cover;
+    grid-area: three;
+}
+div:nth-of-type(4) {
+    background: url(images/4.jpg) center no-repeat local;
+    background-size: cover;
+    grid-area: four;
+}
+div:nth-of-type(5) {
+    background: url(images/5.jpg) center no-repeat local;
+    background-size: cover;
+    grid-area: five;
+}
+div:nth-of-type(6) {
+    background: url(images/6.jpg) center no-repeat local;
+    background-size: cover;
+    grid-area: six;
+}
+div:nth-of-type(7) {
+    background: url(images/7.jpg) center no-repeat local;
+    background-size: cover;
+    grid-area: seven;
+}
+div:nth-of-type(8) {
+    background: url(images/8.jpg) center no-repeat local;
+    background-size: cover;
+    grid-area: eight;
+}
+div:nth-of-type(9) {
+    background: url(images/9.jpg) center no-repeat local;
+    background-size: cover;
+    grid-area: nine;
+}
