@@ -1,0 +1,52 @@
+/* source: https://css-tricks.ir/reference/grid/ */
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    padding: 15px 10px;
+    height: 100vh;
+    display: grid;
+    grid-gap: 5px;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: auto;
+    grid-template-areas: "one two two four six six "
+                       "one two two five seven nine "
+                       "one three three five eight nine ";
+}
+div:nth-of-type(1) {
+    background-color: #00B7FF;
+    grid-area: one;
+}
+div:nth-of-type(2) {
+    background-color: #5ED8D2;
+    grid-area: two;
+}
+div:nth-of-type(3) {
+    background-color: #DF95DF;
+    grid-area: three;
+}
+div:nth-of-type(4) {
+    background-color: #003CFF;
+    grid-area: four;
+}
+div:nth-of-type(5) {
+    background-color: #6F00FF;
+    grid-area: five;
+}
+div:nth-of-type(6) {
+    background-color: #00FF9D;
+    grid-area: six;
+}
+div:nth-of-type(7) {
+    background-color: #00FF9D;
+    grid-area: seven;
+}
+div:nth-of-type(8) {
+    background-color: #8C00FF;
+    grid-area: eight;
+}
+div:nth-of-type(9) {
+    background-color: #5F9EA0;
+    grid-area: nine;
+}
