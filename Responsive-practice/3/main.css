@@ -1,0 +1,115 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    margin: 15vh auto 0px auto;
+    background: linear-gradient(270deg, rgba(58,159,237,1) 0%, rgba(21,196,167,1) 100%);
+    padding: 10px 10px;
+    height: 75vh;
+    width: 75vw;
+    display: grid;
+    grid-gap: 0px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 25% 40% 30% ;
+    grid-template-areas: "one two three four "
+                       "five six six seven "
+                       "five eight nine seven ";
+}
+div {
+    color: white;
+    font-family: serif;
+}
+div:nth-of-type(1) {
+    background-color: #31322C;
+    grid-area: one;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+}
+div:nth-of-type(1)>p {
+    text-align: justify;
+    width: 15vw;
+    margin-top: 5px;
+}
+div:nth-of-type(2) {
+    background-color: #39A0ED;
+    grid-area: two;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div:nth-of-type(3) {
+    background-color: #15C4A4;
+    grid-area: three;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div:nth-of-type(4) {
+    background-color: #31322C;
+    grid-area: four;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div:nth-of-type(5) {
+    background-color: #4C6085;
+    grid-area: five;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 50px;
+}
+div:nth-of-type(5)>p {
+    margin-top: 10px;
+}
+div:nth-of-type(6) {
+    background-color: #31322C;
+    grid-area: six;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 30px;
+}
+div:nth-of-type(6)>p {
+    text-align: justify;
+    width: 30vw;
+    margin-top: 10px;
+}
+div:nth-of-type(7) {
+    background-color: #4C6085;
+    grid-area: seven;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+}
+div:nth-of-type(7)>p {
+    text-align: justify;
+    width: 15vw;
+    margin-top: 10px;
+}
+div:nth-of-type(8) {
+    background-color: #39A0ED;
+    grid-area: eight;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+}
+div:nth-of-type(8)>p {
+    margin-top: 10px;
+}
+div:nth-of-type(9) {
+    background-color: #15C4A4;
+    grid-area: nine;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 20px;
+}
+div:nth-of-type(9)>p {
+    margin-top: 10px;
+}
