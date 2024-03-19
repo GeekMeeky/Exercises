@@ -1,0 +1,226 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: #323231;
+}
+h1 {
+    text-align: center;
+    color: white;
+    margin: 30px auto 50px auto;
+}
+section.main {
+    display: flex;
+    justify-content: space-evenly;
+}
+div {
+    margin-bottom: 5px;
+}
+/* section one */
+section.one {
+    width: 24vw;
+}
+section.one>div:nth-of-type(1) {
+    background: url(image/1.jpg) center no-repeat local;
+    background-size: cover;
+    height: 100vh;
+}
+section.one>div:nth-of-type(2) {
+    background: url(image/6.jpg) center no-repeat local;
+    background-size: cover;
+    height: 30vh;
+}
+section.one>div:nth-of-type(3) {
+    background: url(image/3.jpg) center no-repeat local;
+    background-size: cover;
+    height: 100vh;
+}
+section.one>div:nth-of-type(4) {
+    background: url(image/7.jpg) center no-repeat local;
+    background-size: cover;
+    height: 30vh;
+}
+section.one>div:nth-of-type(5) {
+    background: url(image/2.jpg) center no-repeat local;
+    background-size: cover;
+    height: 30vh;
+}
+section.one>div:nth-of-type(6) {
+    background: url(image/4.jpg) center no-repeat local;
+    background-size: cover;
+    height: 30vh;
+}
+section.one>div:nth-of-type(7) {
+    background: url(image/5.jpg) center no-repeat local;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+/* section two */
+section.two {
+    width: 24vw;
+}
+section.two>div:nth-of-type(1) {
+    background: url(image/2.jpg) center no-repeat local;
+    background-size: cover;
+    height: 30vh;
+}
+section.two>div:nth-of-type(2) {
+    background: url(image/4.jpg) center no-repeat local;
+    background-size: cover;
+    height: 30vh;
+}
+section.two>div:nth-of-type(3) {
+    background: url(image/5.jpg) center no-repeat local;
+    background-size: cover;
+    height: 100vh;
+}
+section.two>div:nth-of-type(4) {
+    background: url(image/1.jpg) center no-repeat local;
+    background-size: cover;
+    height: 100vh;
+}
+section.two>div:nth-of-type(5) {
+    background: url(image/6.jpg) center no-repeat local;
+    background-size: cover;
+    height: 30vh;
+}
+section.two>div:nth-of-type(6) {
+    background: url(image/3.jpg) center no-repeat local;
+    background-size: cover;
+    height: 100vh;
+}
+section.two>div:nth-of-type(7) {
+    background: url(image/7.jpg) center no-repeat local;
+    background-size: cover;
+    height: 30vh;
+}
+
+
+/* section three */
+section.three {
+    width: 24vw;
+}
+section.three>div:nth-of-type(1) {
+    background: url(image/3.jpg) center no-repeat local;
+    background-size: cover;
+    height: 100vh;
+}
+section.three>div:nth-of-type(2) {
+    background: url(image/7.jpg) center no-repeat local;
+    background-size: cover;
+    height: 30vh;
+}
+section.three>div:nth-of-type(3) {
+    background: url(image/2.jpg) center no-repeat local;
+    background-size: cover;
+    height: 30vh;
+}
+section.three>div:nth-of-type(4) {
+    background: url(image/1.jpg) center no-repeat local;
+    background-size: cover;
+    height: 100vh;
+}
+section.three>div:nth-of-type(5) {
+    background: url(image/6.jpg) center no-repeat local;
+    background-size: cover;
+    height: 30vh;
+}
+section.three>div:nth-of-type(6) {
+    background: url(image/4.jpg) center no-repeat local;
+    background-size: cover;
+    height: 30vh;
+}
+section.three>div:nth-of-type(7) {
+    background: url(image/5.jpg) center no-repeat local;
+    background-size: cover;
+    height: 100vh;
+}
+
+
+/* section four */
+section.four {
+    width: 24vw;
+}
+section.four>div:nth-of-type(1) {
+    background: url(image/4.jpg) center no-repeat local;
+    background-size: cover;
+    height: 30vh;
+}
+section.four>div:nth-of-type(2) {
+    background: url(image/1.jpg) center no-repeat local;
+    background-size: cover;
+    height: 100vh;
+}
+section.four>div:nth-of-type(3) {
+    background: url(image/7.jpg) center no-repeat local;
+    background-size: cover;
+    height: 30vh;
+}
+section.four>div:nth-of-type(4) {
+    background: url(image/6.jpg) center no-repeat local;
+    background-size: cover;
+    height: 30vh;
+}
+section.four>div:nth-of-type(5) {
+    background: url(image/3.jpg) center no-repeat local;
+    background-size: cover;
+    height: 100vh;
+}
+section.four>div:nth-of-type(6) {
+    background: url(image/5.jpg) center no-repeat local;
+    background-size: cover;
+    height: 100vh;
+}
+section.four>div:nth-of-type(7) {
+    background: url(image/2.jpg) center no-repeat local;
+    background-size: cover;
+    height: 30vh;
+}
+
+/* For mobile phones: */
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+    section.main {
+        width: 100vw;
+        flex-wrap: wrap;
+    }
+    section.one {
+        width: 100vw;
+    }
+    section.two {
+        width: 100vw;
+    }
+    section.three {
+        width: 100vw;
+    }
+    section.four {
+        width: 100vw;
+    }
+    div {
+        margin: 0px 10px;
+    }
+}
+/* For tablets: */
+@media only screen and (min-width: 600px) and (max-width: 768px) {
+    section.main {
+        width: 100vw;
+        flex-wrap: wrap;
+    }
+    section.one {
+        width: 50vw;
+    }
+    section.two {
+        width: 50vw;
+    }
+    section.three {
+        width: 50vw;
+    }
+    section.four {
+        width: 50vw;
+    }
+    div {
+        margin: 5px;
+    }
+}
