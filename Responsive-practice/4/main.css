@@ -1,0 +1,107 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+    background-color: black;
+    font-family: cursive;
+}
+section.main {
+    margin: 0px auto;
+    background: url(image/gojo.jpg) center no-repeat local;
+    background-size: cover;
+    width: 36vw;
+}
+section.first {
+    display: flex;
+    flex-direction: column;
+}
+section.first>div:nth-of-type(1){
+    background-color: #031923;
+    width: 10vw;
+    color: white;
+    height: 15vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 23px;
+}
+section.first>div:nth-of-type(2){
+    background-color: #031923;
+    align-self: end;
+    width: 17vw;
+    height: 15vh;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 22px;
+}
+section.first>div:nth-of-type(3){
+    background: url(image/8.jpg) center no-repeat local;
+    background-size: cover;
+    width: 10vw;
+    height: 18vh;
+    margin-left: 9vw;
+}
+section.second {
+    background-color: #031923;
+}
+section.second>p {
+    color: white;
+    text-align: justify;
+    padding: 10px 20px;
+}
+section.third {
+    display: flex;
+    flex-direction: column;
+}
+section.third>div:nth-of-type(1){
+    background: url(image/Gojo2.jpg) center no-repeat local;
+    background-size: cover;
+    width: 9vw;
+    height: 18vh;
+}
+section.third>div:nth-of-type(2){
+    background-color: #031923;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 10vw;
+    height: 15vh;
+    align-self: end;
+    font-size: 23px;
+}
+section.third>div:nth-of-type(3){
+    background: url(image/Gojo1.jpg) center no-repeat local;
+    background-size: cover;
+    width: 8vw;
+    height: 18vh;
+}
+section.third>div:nth-of-type(4){
+    background-color: #031923;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12vw;
+    height: 15vh;
+    font-size: 19px;
+}
+section.third>div:nth-of-type(5){
+    background-color: #031923;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 20vw;
+    height: 15vh;
+    align-self: end;
+}
+section.third>div:nth-of-type(5)>p {
+    color: white;
+    text-align: justify;
+    padding: 10px 20px;
+    font-size: 13px;
+}
