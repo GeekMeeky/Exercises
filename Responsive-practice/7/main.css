@@ -1,0 +1,150 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+}
+nav {
+    background-color: #018989;
+    position: sticky;
+    top: 0px;
+}
+nav>ul {
+    list-style-type: none;
+    display: flex;
+    color: white;
+    height: 6vh;
+    align-items: center;
+}
+nav>ul>li {
+    padding: 15px;
+}
+li:hover {
+    cursor: pointer;
+}
+header {
+    background: url(image/3.jpg) center no-repeat fixed;
+    background-size: cover;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header>h1 {
+    color: white;
+}
+main {
+    display: flex;
+    
+}
+section {
+    background-color: #5B5B5A;
+    width: 70vw;
+}
+section>h3 {
+    margin: 30px 0px 0px 0px;
+    padding-left: 15px;
+}
+section>p {
+    font-size: 12px;
+    margin: 10px 0px;
+    padding-left: 15px;
+}
+section>div.image {
+    background: url(image/2.jpg) center no-repeat local;
+    background-size: cover;
+    width: 68vw;
+    margin: 0px auto;
+    height: 32vh;
+}
+aside {
+    background-color: #0C6562;
+    width: 30vw;
+}
+aside>h3 {
+    color: white;
+    margin: 30px 0px 0px 0px;
+    padding-left: 15px;
+}
+aside>div.image {
+    background: url(image/4.jpg) center no-repeat local;
+    background-size: cover;
+    width: 28vw;
+    height: 20vh;
+    margin: 0px auto;
+}
+aside>p {
+    color: white;
+    font-size: 12px;
+    margin: 10px 0px;
+    padding-left: 15px;
+}
+aside>p:nth-of-type(3) {
+    font-weight: bold;
+    font-size: 14px;
+}
+aside>div.img {
+    background: url(image/2.jpg) center no-repeat local;
+    background-size: cover;
+    width: 28vw;
+    height: 10vh;
+    margin: 0px auto 10px auto;
+}
+footer {
+    background-color: #839F98;
+    height: 12vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer>p {
+    font-size: 25px;
+    font-weight: bold;
+}
+/* For mobile phones: */
+@media only screen and (min-width: 0px) and (max-width: 600px) {
+    nav {
+        height: 32vh;
+    }
+    nav>ul {
+       flex-direction: column;
+       align-items: center;
+    }
+    nav>ul>li {
+        width: 100vw;
+        background-color: #018989;
+        text-align: center;
+    }
+    header {
+        height: 15vh;
+    }
+    main {
+        display: block;
+    }
+    section {
+        width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    section>div.image {
+        width: 80vw;
+    }
+    aside {
+        width: 100vw;
+        height: 82vh;
+    }
+    aside>h3 {
+        margin: 0px;
+        padding-top: 10px;
+    }
+    aside>div.image {
+        width: 90vw;
+    }
+    aside>div.img {
+        width: 85vw;
+    }
+}
