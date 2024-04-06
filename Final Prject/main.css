@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    outline: none;
     box-sizing: border-box;
     direction: rtl;
 }
@@ -197,6 +198,10 @@ div.slider {
     }
 }
 
+/* section options */
+/* section options */
+/* section options */
+
 section.options {
     display: flex;
     justify-content: space-evenly;
@@ -239,6 +244,10 @@ section.options>div:last-child>a>div>i {
     font-size: 23px;
     color: gray;
 }
+
+/* section offer */
+/* section offer */
+/* section offer */
 
 section.offer {
     display: flex;
@@ -313,4 +322,262 @@ section.offer>div:last-child>a>i {
 }
 section.offer>div:last-child>a>i:hover {
     color: black;
+}
+section.offer>div:not(div:nth-of-type(1))>p {
+    color: gray;
+    text-decoration: line-through;
+    font-size: 14px;
+    padding: 15px 70px 0px 0px;
+}
+div.price {
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+div.price>span {
+    background-color: #EF394E;
+    border-radius: 12px;
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    padding: 2px 8px;
+    margin-left: 20px;
+}
+div.price>img {
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+}
+
+/* section fresh */
+/* section fresh */
+/* section fresh */
+
+section.fresh {
+    background: linear-gradient(270deg, rgba(201,255,175,1) 0%, rgba(255,255,255,1) 40%);
+    width: 88vw;
+    margin: 30px auto;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    height: 100px;
+}
+section.fresh>a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 85vw;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+section.fresh>a>img:nth-of-type(1) {
+    padding-right: 20px;
+}
+section.fresh>a>img:nth-of-type(2) {
+    padding-right: 5px;
+}
+section.fresh>a>span {
+    background-color: #39AE00;
+    color: white;
+    font-weight: bold;
+    padding: 3px 10px;
+    border-radius: 13px;
+    margin-right: 5px;
+    margin-left: 10vw;
+}
+section.fresh>a>div.fresh-item {
+    display: flex;
+    flex-direction: column;
+}
+section.fresh>a>div>img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+section.fresh>a>div>span {
+    background-color: #EF394E;
+    color: white;
+    font-weight: bold;
+    padding: 2px 0px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 13px;
+    width: 35px;
+    position: relative;
+    bottom: 10px;
+    left: 5px;
+}
+section.fresh>a>div:nth-of-type(7) {
+    background-color: white;
+    border-radius: 20px;
+    display: flex;
+    color: #39AE00;
+}
+section.fresh>a>div:nth-of-type(7)>p {
+    padding-left: 10px;
+}
+
+/* section styles */
+/* section styles */
+/* section styles */
+
+section.styles {
+    width: 90vw;
+    margin: 0px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+section.styles>div {
+    width: 20vw;
+    height: 35vh;
+    border-radius: 16px;
+}
+section.styles>div:nth-of-type(1) {
+    background: url(images/style4.jpg) center no-repeat local;
+    background-size: cover;
+}
+section.styles>div:nth-of-type(2) {
+    background: url(images/style3.webp) center no-repeat local;
+    background-size: cover;
+}
+section.styles>div:nth-of-type(3) {
+    background: url(images/style2.webp) center no-repeat local;
+    background-size: cover;
+}
+section.styles>div:nth-of-type(4) {
+    background: url(images/style1.webp) center no-repeat local;
+    background-size: cover;
+}
+h3 {
+    margin: 50px auto 10px auto;
+    text-align: center;
+    font-size: 21px;
+}
+
+/* section sort */
+/* section sort */
+/* section sort */
+
+section.sort {
+    margin: 0px auto;
+    width: 90vw;
+    display: flex;
+    justify-content: space-evenly;
+}
+section.sort>div {
+    display: flex;
+    flex-direction: column;
+}
+section.sort>div>a {
+    color: black;
+}
+section.sort>div>a>span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section.sort>div>a>span>img {
+    width: 100px;
+    height: 100px;
+    margin-top: 30px;
+}
+section.sort>div>a>span>p {
+    padding-top: 15px;
+}
+
+/* section banner */
+/* section banner */
+/* section banner */
+
+section.banner {
+    width: 90vw;
+    margin: 100px auto 0px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+section.banner>a>div {
+    border-radius: 16px;
+    width: 43vw;
+    height: 38vh;
+}
+section.banner>a:nth-of-type(1)>div {
+    background: url(images/categoryrice.webp) center no-repeat local;
+    background-size: cover;
+}
+section.banner>a:nth-of-type(2)>div {
+    background: url(images/categorycoffee.webp) center no-repeat local;
+    background-size: cover;
+}
+h2 {
+    margin: 35px auto 35px auto;
+    text-align: center;
+    font-size: 21px;
+}
+/* section suggest */
+/* section suggest */
+/* section suggest */
+
+section.suggest {
+    margin: 0px auto;
+    width: 90vw;
+    display: flex;
+    justify-content: space-evenly;
+    border: 2px solid rgba(173, 173, 173, 0.308);
+    border-radius: 16px;
+}
+section.suggest>div {
+    display: flex;
+    flex-direction: column;
+}
+section.suggest>div:nth-child(odd) {
+    padding-bottom: 30px;
+}
+section.suggest>div>a {
+    color: black;
+}
+section.suggest>div>a>span {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section.suggest>div>a>span>img {
+    width: 60px;
+    height: 60px;
+    margin-top: 30px;
+}
+section.suggest>div>a>span>p {
+    padding-top: 15px;
+}
+
+/* section brands */
+/* section brands */
+/* section brands */
+
+section.brands {
+    border: 2px solid rgba(173, 173, 173, 0.308);
+    border-radius: 16px;
+    margin: 20px auto;
+    width: 90vw;
+}
+section.brands>h3 {
+    display: flex;
+    justify-content: center;
+    margin: 30px auto;
+}
+section.brands>h3>img {
+    width: 24px;
+    height: 24px;
+    margin-left: 10px;
+}
+section.brands>div {
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+}
+section.brands>div>a>img {
+    width: 110px;
+    height: 110px;
+    background-attachment: local;
 }
