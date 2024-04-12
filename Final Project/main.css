@@ -41,7 +41,7 @@ div.header-up>a:nth-of-type(1) {
 }
 
 div.header-search {
-    padding: 15px 40px 0px 0px;
+    margin: 15px 40px 0px 0px;
 }
 
 .fa-magnifying-glass:before,
@@ -106,8 +106,14 @@ input[type=search]:focus {
     color: rgb(65, 64, 64);
 }
 
+/* header-down */
+/* header-down */
+/* header-down */
+
 div.header-down {
     display: flex;
+    border-bottom: 1px solid gray;
+    padding-bottom: 5px;
 }
 
 div.header-down>ul {
@@ -143,17 +149,111 @@ div.place {
     color: #3e3e3ee8;
     cursor: pointer;
 }
-
 div.place>i {
     padding-left: 10px;
 }
+.hover-paragraph {
+    width: 190px;
+    text-align: center;
+    font-size: 14px;
+    position: absolute;
+    top: 48px;
+    background-color: #3F4064;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    visibility: hidden;
+    opacity: 0;
+}
+.place:hover .hover-paragraph {
+    visibility: visible;
+    opacity: 1;
+}
+/* section story */
+/* section story */
+/* section story */
+
+section.story {
+    display: flex;
+    justify-content: space-between;
+    width: 90vw;
+    margin: 20px auto 0px auto;
+}
+section.story>div {
+    width: 10%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background: linear-gradient(315deg,#e03d96,#7d4c9e); */
+}
+section.story>div>img {
+    cursor: pointer;
+    width: 74px;
+    height: 74px;
+    border-radius: 50%;
+    border: 4px solid white;
+    outline: 2px solid #C44299;
+}
+section.story>div>p {
+    margin-top: 5px;
+    cursor: pointer;
+    font-size: 12px;
+    text-align: center;
+}
+section.story>span {
+    border: 1px solid rgba(128, 128, 128, 0.249);
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    top: 40px;
+    left: 15px;
+}
+section.story>span>a>i {
+    color: gray;
+    font-size: 14px;
+}
+section.story>span>a>i:hover {
+    color: black;
+}
+/* slider */
+/* slider */
+/* slider */
 
 div.slider {
     height: 55vh;
     animation: slider 20s infinite;
     margin-top: 5vh;
+    display: flex;
+    cursor: pointer;
 }
-
+div.slider>div {
+    margin-right: 10px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    top: 42vh;
+    right: 3vw;
+    visibility: hidden;
+}
+div.slider>div>a>i {
+    color: black;
+    font-size: 15px;
+}
+div.slider:hover div {
+    visibility: visible;
+}
 @keyframes slider {
     0% {
         background: url(images/slider1.jpg) center no-repeat local;
@@ -525,10 +625,16 @@ section.suggest>div>a>span {
     flex-direction: column;
     align-items: center;
 }
-section.suggest>div>a>span>img {
+section.suggest>div>a>span>div {
+    background-color: #f0f0f1;;
+    border-radius: 50%;
+    padding: 12px;
+    margin-top: 15px;
+}
+section.suggest>div>a>span>div>img {
     width: 60px;
     height: 60px;
-    margin-top: 30px;
+    
 }
 section.suggest>div>a>span>p {
     padding-top: 15px;
@@ -591,7 +697,6 @@ section.visited>div>p {
 }
 div.grid {
     display: grid;
-    grid-gap: 5px;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: auto;
     grid-template-areas: "one two "
@@ -599,12 +704,16 @@ div.grid {
 }
 div.grid>a:nth-of-type(1) {
     grid-area: one;
+    border-bottom: 1px solid #f0f0f1;
+    border-left: 1px solid #f0f0f1;
 }
 div.grid>a:nth-of-type(2) {
     grid-area: two;
+    border-bottom: 1px solid #f0f0f1;
 }
 div.grid>a:nth-of-type(3) {
     grid-area: three;
+    border-left: 1px solid #f0f0f1;
 }
 div.grid>a:nth-of-type(4) {
     grid-area: four;
@@ -794,10 +903,17 @@ div.sell-items>span>img {
     width: 86px;
     height: 86px;
 }
+div.sell-items>span>span {
+    color: #1abcce;
+    font-size: 30px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
 div.sell-items>span>p {
     display: flex;
     align-items: center;
-    padding-right: 5px;
+    padding-right: 10px;
 }
 /* section digimag */
 /* section digimag */
