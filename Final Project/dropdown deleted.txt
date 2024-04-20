@@ -1,0 +1,169 @@
+<div class="dropdown-content-two">
+                        <a href="https://www.digikala.com/search/category-mobile-phone/product-list/"
+                            style="color:#008eb2;">همه محصولات موبایل</a>
+                            <div class="drop-down-title">
+                                <span><a href="">برندهای مختلف گوشی موبایل</a></span>
+                                <span><a href="">گوشی براساس قیمت</a></span>
+                                <span><a href="">لوازم جانبی موبایل</a></span>
+                                <span><a href="">داغ ترین ها</a></span>
+                            </div>
+                        <div class="drop-down">
+                            <div class="drop-item">
+                                <a href="">گوشی آیفون</a>
+                                <a href="">گوشی سامسونگ</a>
+                                <a href="">گوشی شیائومی</a>
+                                <a href="">گوشی نوکیا</a>
+                                <a href="">گوشی ریلمی</a>
+                                <a href="">گوشی آنر</a>
+                                <a href="">گوشی موتورولا</a>
+                                <a href="">گوشی ناتینگ فون</a>
+                                <a href="">گوشی جی پلاس</a>
+                                <a href="">گوشی هواوی</a>
+                            </div>
+                            <div class="drop-item">
+                                <a href="">گوشی موبایل ارزان</a>
+                                <a href="">گوشی موبایل قسطی</a>
+                                <a href="">گوشی تا 2 میلیون تومان</a>
+                                <a href="">گوشی تا 5 میلیون تومان</a>
+                                <a href="">گوشی تا 7 میلیون تومان</a>
+                                <a href="">گوشی تا 15 میلیون تومان</a>
+                                <a href="">گوشی بالای 15 میلیون تومان</a>
+                                <a href="">گوشی بر اساس عملکرد</a>
+                                <a href="">گوشی گیمینگ</a>
+                                <a href="">گوشی 5G</a>
+                            </div>
+                            <div class="drop-item">
+                                <a href="">شارژر گوشی</a>
+                                <a href="">قاب و کاور گوشی</a>
+                                <a href="">گلس گوشی</a>
+                                <a href="">هولدر گوشی موبایل</a>
+                                <a href="">کابل و شارژر مبدل</a>
+                                <a href="">پاوربانک(شارژر همراه)</a>
+                                <a href="">تبلت</a>
+                                <a href="">تبلت سامسونگ</a>
+                                <a href="">تبلت اپل(آی پد)</a>
+                                <a href="">تبلت شیائومی</a>
+                            </div>
+                            <div class="drop-item">
+                                <a href="">گلکسی S23 اولترا</a>
+                                <a href="">گلکسی A54</a>
+                                <a href="">گلکسی A34</a>
+                                <a href="">گلکسی A24</a>
+                                <a href="">گلکسی A14</a>
+                                <a href="">گلکسی S23 FE</a>
+                                <a href="">ردمی نوت 12</a>
+                                <a href="">پوکو C40</a>
+                                <a href="">پوکو X5 Pro 5G</a>
+                                <a href="">ردمی A2 Plus</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+CSS:
+.dropdown-content-two {
+    display: none;
+    position: absolute;
+    right: 14.4%;
+    top: 24.1%;
+    background-color: #f9f9f9;
+    width: 60%;
+    box-shadow: 0px 1px 16px 0px rgba(0,0,0,0.1);
+    border-bottom-left-radius: 10px;
+    z-index: 1;
+    height: 75vh;
+    overflow-y: scroll;
+    direction: ltr;
+}
+.dropdown-content-two a {
+    color: black;
+    padding: 15px 30px 15px 0px;
+    text-decoration: none;
+    display: block;
+    text-align: right;
+    font-weight: 400;
+    transition: all 200ms linear;
+}
+.dropdown-content-two a:hover {
+    color: #EE384E;
+}
+  
+.dropdown:hover .dropdown-content-two {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+div.drop-down {
+    display: flex;
+}
+div.drop-down-title {
+    width: 80%;
+    margin: 0px 0px 10px 17%;
+    display: flex;
+    justify-content: space-between;
+}
+div.drop-down-title>span {
+    border-right: 2px solid crimson;
+    height: 20px;
+    display: flex;
+    align-items: center;
+}
+div.drop-down-title a {
+    position: relative;
+    left: 20px;
+}
+div.drop-item {
+    
+}
+div.drop-item a {
+    color: gray;
+    font-size: 14px;
+    text-align: justify;
+}
+div.drop-item:nth-of-type(2) {
+    margin-right: 13%;
+}
+div.drop-item:nth-of-type(3) {
+    margin-right: 2%;
+}
+div.drop-item:nth-of-type(4) {
+    margin-right: 4%;
+}
+
+
+
+
+
+/* @media only screen and (min-width: 1025px) and (max-width: 1440px) */
+.dropdown-content-two {
+    right: 21%;
+    top: 24.7%;
+    width: 70%;
+    height: 70vh;
+}
+.dropdown-content-two a {
+    padding: 15px 15px 15px 0px;
+}
+div.drop-down-title {
+    width: 90%;
+    margin: 0px 0px 10px 8%;
+    display: flex;
+    justify-content: space-between;
+}
+div.drop-down-title a {
+    left: 10px;
+}
+div.drop-item a {
+    font-size: 13px;
+}
+div.drop-item:nth-of-type(2) {
+    margin-right: 16%;
+}
+div.drop-item:nth-of-type(3) {
+    margin-right: 4%;
+}
+div.drop-item:nth-of-type(4) {
+    margin-right: 4%;
+}
+
