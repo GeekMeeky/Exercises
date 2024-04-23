@@ -266,6 +266,7 @@ button.drop>i {
 .dropdown-content>span {
     display: flex;
     align-items: center;
+    height: 10%;
     padding-right: 10px;
     transition: all 200ms linear;
 }
@@ -274,7 +275,6 @@ button.drop>i {
 }
 .dropdown-content>span>a {
     color: black;
-    padding: 15px 0px;
     text-decoration: none;
     text-align: right;
     font-size: 14px;
@@ -292,7 +292,6 @@ button.drop>i {
 .dropdown:hover .dropdown-content {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
 }
 
 .dropleft {
@@ -364,6 +363,18 @@ div.dropleft:nth-of-type(10) {
 #electronic:hover + div {
     display: flex;
     background-color: white;
+    z-index: 2;
+}
+div.dropleft:nth-of-type(2):hover,
+div.dropleft:nth-of-type(3):hover,
+div.dropleft:nth-of-type(4):hover,
+div.dropleft:nth-of-type(5):hover,
+div.dropleft:nth-of-type(6):hover,
+div.dropleft:nth-of-type(7):hover,
+div.dropleft:nth-of-type(8):hover,
+div.dropleft:nth-of-type(9):hover,
+div.dropleft:nth-of-type(10):hover {
+    display: flex;
     z-index: 2;
 }
 #kitchen:hover + div {
