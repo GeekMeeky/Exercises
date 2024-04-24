@@ -96,38 +96,37 @@ input[type=search]:focus {
     outline: none;
     border-bottom: 1px solid #8CDFE9;
 }
-
-.header-up>button {
+div.login {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 2%;
+}
+div.login>button {
     border: 1px solid rgba(173, 173, 173, 0.308);
     border-radius: 8px;
     width: 9vw;
     height: 6vh;
-    position: relative;
-    right: 35vw;
 }
 
-.header-up>button>a {
+div.login>button>a {
     text-decoration: none;
     color: black;
     font-size: 17px;
     font-family: 'BYekan';
 }
 
-.header-up>button>a>i {
+div.login>button>a>i {
     padding-right: 5px;
     color: #313030e8;
 }
-
-.header-up>span {
-    position: relative;
-    right: 36vw;
+div.login>span {
     font-size: 40px;
     color: rgba(173, 173, 173, 0.295);
+    padding: 0px 10px;
 }
 
-.header-up>a:nth-of-type(2) {
-    position: relative;
-    right: 37vw;
+div.login>a {
     text-decoration: none;
     color: rgb(65, 64, 64);
 }
@@ -198,7 +197,7 @@ div.header-down>ul>li>a>i {
 
 div.place {
     position: absolute;
-    right: 85%;
+    left: 2%;
     display: flex;
     padding-top: 20px;
     color: #3e3e3ee8;
@@ -1502,19 +1501,23 @@ section.information>div:nth-of-type(4) {
 section.app {
     width: 95%;
     display: flex;
+    justify-content: space-between;
     align-items: center;
     margin: 30px auto;
     background-color: #3C4B6D;
     padding: 15px 20px;
     border-radius: 10px;
 }
-
-section.app>img {
+section.app-right {
+    display: flex;
+    align-items: center;
+}
+section.app-right>img {
     width: 45px;
     height: 45px;
 }
 
-section.app>p {
+section.app-right>p {
     color: white;
     font-size: 25px;
     padding-right: 10px;
@@ -1522,8 +1525,6 @@ section.app>p {
 
 section.app-left {
     display: flex;
-    position: absolute;
-    right: 60%;
 }
 
 span.app-item>a>img {
@@ -1628,6 +1629,176 @@ section.parts {
     display: none;
 }
 
+/* For 4k */
+@media only screen and (min-width: 2560px) {
+    .up-header {
+        height: 6vh;
+    }
+    div.header-up {
+        top: 6vh;
+        height: 8vh;
+        width: 65%;
+        margin: 0px auto;
+    }
+    div.login>button {
+        width: 6vw;
+    }
+    div.header-down {
+        width: 65%;
+        margin: 0px auto;
+    }
+    div.place {
+        right: 74%;
+    }
+    /* section story */
+    /* section story */
+    section.story {
+        width: 52%;
+    }
+    /* slider */
+    /* slider */
+    div.slider {
+        width: 75%;
+        margin: 1vh auto;
+        height: 40vh;
+    }
+    /* section options */
+    /* section options */
+    section.options {
+        justify-content: space-around;
+        width: 50%;
+        margin: 0px auto;
+    }
+    section.offer {
+        width: 50%;
+    }
+    section.offer>div:last-child {
+        position: static;
+    }
+    section.fresh {
+        width: 50%;
+    }
+    /* section styles */
+    /* section styles */
+    section.styles {
+        width: 50%;
+    }
+    section.styles>img {
+        width: 12vw;
+        height: 22vh;
+    }
+    /* section sort */
+    /* section sort */
+    section.sort {
+        width: 50%;
+    }
+    /* section banner */
+    /* section banner */
+    section.banner {
+        width: 50%;
+        justify-content: space-between;
+    }
+    section.banner>a {
+        width: 49%;
+    }
+    section.banner>a>img {
+        height: 24vh;
+    }
+    /* section suggest */
+    /* section suggest */
+    section.suggest {
+        width: 50%;
+        justify-content: space-between;
+        padding: 15px;
+    }
+    /* section brands */
+    /* section brands */
+    section.brands {
+        width: 50%;
+    }
+    section.brands>div {
+        justify-content: space-around;
+    }
+    /* section visited */
+    /* section visited */
+    section.visited {
+        width: 50%;
+    }
+    /* section digiplus */
+    /* section digiplus */
+    section.digiplus {
+        width: 50%;
+    }
+    section.digiplus>div:nth-of-type(1) {
+        background-size: contain;
+        background-position: 0 100%;
+    }
+    section.digiplus>div:nth-of-type(1)>button {
+        width: 4vw;
+        height: 4vh;
+    }
+    section.digiplus>div:nth-of-type(2)>div:nth-of-type(1)>a {
+        right: 70%;
+    }
+    /* section digiclub */
+    /* section digiclub */
+    section.digiclub {
+        width: 50%;
+    }
+    /* section best-selling */
+    /* section best-selling */
+    section.best-selling {
+        width: 50%;
+    }
+    /* section digimag */
+    /* section digimag */
+    section.digimag {
+        width: 50%;
+    }
+    section.digimag>div:nth-of-type(1)>a {
+        right: 68%;
+    }
+    div.back-to-top {
+        width: 62%;
+        display: flex;
+        justify-content: space-between;
+    }
+    div.back-to-top>button {
+        position: static;
+    }
+    div.backup {
+        width: 62%;
+    }
+    /* section warranty */
+    /* section warranty */
+    section.warranty {
+        width: 55%;
+    }
+    /* section information */
+    /* section information */
+    section.information {
+        width: 62%;
+    }
+    div.social {
+        width: 45%;
+    }
+    form {
+        width: 75%;
+    }
+    section.information>div:nth-of-type(4) {
+        right: 65%;
+    }
+    section.app {
+        width: 62%;
+    }
+    footer {
+        width: 62%;
+    }
+    section.product {
+        width: 62%;
+        margin: 0px auto;
+    }
+}
 /* For Large Laptops */
 @media only screen and (min-width: 1025px) and (max-width: 1440px) {
 
@@ -1638,26 +1809,14 @@ section.parts {
         padding-bottom: 4px;
     }
 
-    .header-up>button {
-        width: 140px;
-        position: absolute;
-        right: 82%;
+    div.login>button {
+        width: 130px;
     }
-
-    .header-up>span {
-        position: absolute;
-        right: 95%;
-        font-size: 50px;
+    div.login>button>a {
+        font-size: 15px;
     }
-
-    .header-up>a:nth-of-type(2) {
-        position: absolute;
-        right: 97%;
-    }
-
     div.place {
-        position: absolute;
-        right: 81%;
+        left: 3%;
         font-size: 14px;
     }
 
@@ -1668,6 +1827,9 @@ section.parts {
 
     div.header-down>ul>li {
         padding: 0px 5px;
+    }
+    div.header-down>ul>li:nth-of-type(6) {
+        display: none;
     }
     /* poshtibani */
     /* poshtibani */
