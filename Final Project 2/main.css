@@ -502,7 +502,8 @@ div.main-center>div:nth-of-type(2) {
     height: 1px;
 }
 div.main-center>p {
-    margin-top: 20px;
+    margin-top: 30px;
+    font-weight: bold;
 }
 div.main-center>button {
     font-family: inherit;
@@ -510,7 +511,7 @@ div.main-center>button {
     justify-content: space-between;
     border: 1px solid gray;
     border-radius: 8px;
-    padding: 8px 12px;
+    padding: 12px;
     width: 26%;
     cursor: pointer;
     margin: 15px 0px;
@@ -521,7 +522,7 @@ div.main-center>button>svg {
 }
 div.main-center>h5 {
     font-size: 18px;
-    margin-bottom: 15px;
+    margin-bottom: 25px;
 }
 div.main-center>div:nth-of-type(3) {
     display: flex;
@@ -532,4 +533,46 @@ div.main-center>div:nth-of-type(3)>span {
     border-radius: 12px;
     width: 30%;
     padding: 8px;
+}
+div.main-center>div:nth-of-type(3)>span>p:nth-of-type(1) {
+    color: #81858b;
+    font-size: 13px;
+}
+div.main-center>div:nth-of-type(3)>span>p:nth-of-type(2) {
+    color: #3f4064;
+    font-size: 12px;
+    font-weight: bold;
+}
+div.attribute {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 16px;
+}
+div.attribute>span {
+    background-color: #e0e0e2;
+    height: 1px;
+    width: 33%;
+}
+div.attribute>button {
+    font-family: inherit;
+    border: 1px solid #e0e0e2;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-size: 15px;
+    cursor: pointer;
+}
+div.attribute>button>i {
+    font-size: 13px;
+    padding-right: 5px;
+}
+div.seller {
+    width: 21%;
+    border: 1px solid #e0e0e2;
+    border-radius: 8px;
+    padding: 16px;
+    margin-right: 8px;
+    position: absolute;
+    top: 45%;
+    left: 2%;
 }
