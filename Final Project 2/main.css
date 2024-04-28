@@ -576,3 +576,57 @@ div.seller {
     top: 45%;
     left: 2%;
 }
+/* div other-pictures */
+/* div other-pictures */
+div.other-pictures {
+    width: 36%;
+    display: flex;
+}
+div.other-pictures>span {
+    border: 1px solid #e0e0e2;
+    border-radius: 8px;
+    padding: 3px;
+    margin: 0px 10px 0px 0px;
+    cursor: pointer;
+}
+div.other-pictures>span>img {
+    width: 72px;
+    height: 72px;
+}
+div.incorrect {
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    padding: 10px 10px 0px 0px;
+}
+div.incorrect>span {
+    display: flex;
+    color: #81858b;
+}
+div.incorrect>span>img {
+    width: 18px;
+    height: 18px;
+}
+div.incorrect>span>p {
+    font-size: 13px;
+}
+/* section warranty */
+/* section warranty */
+/* section warranty */
+section.warranty {
+    width: 90%;
+    margin: 40px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+section.warranty>a {
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+
+section.warranty>a>p {
+    font-size: 14px;
+}
