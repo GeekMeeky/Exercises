@@ -1,0 +1,74 @@
+<section class="alter-footer">
+        <div>
+            <p>
+                <span>با دیجی کالا</span>
+                <i class="fa-solid fa-chevron-down"></i>
+            </p>
+            <a href="https://about.digikala.com/newsroom/">اتاق خبر دیجی‌کالا</a>
+            <a href="https://www.digikala.com/landings/seller-introduction/">فروش در دیجی‌کالا</a>
+            <a href="https://careers.digikala.com/">فرصت‌های شغلی</a>
+            <a href="https://digikalapublic.whistleblowernetwork.net/frontpage">گزارش تخلف در دیجی‌کالا</a>
+            <a href="https://www.digikala.com/page/contact-us/">تماس با دیجی‌کالا</a>
+            <a href="https://about.digikala.com/">درباره دیجی‌کالا</a>
+        </div>
+        <div>
+            <p>
+                <span>خدمات مشتریان</span>
+                <i class="fa-solid fa-chevron-down"></i>
+            </p>
+            <a href="">پاسخ به پرسش‌های متداول</a>
+            <a href="">رویه‌های بازگرداندن کالا</a>
+            <a href="">شرایط استفاده</a>
+            <a href="">حریم خصوصی</a>
+            <a href="">گزارش باگ</a>
+        </div>
+        <div>
+            <p>
+                <span>راهنمای خرید از دیجی کالا</span>
+                <i class="fa-solid fa-chevron-down"></i>
+            </p>
+            <a href="">نحوه ثبت سفارش</a>
+            <a href="">رویه ارسال سفارش</a>
+            <a href="">شیوه‌های پرداخت</a>
+        </div>
+    </section>
+    <section class="parts">
+        <a href="">
+            <i class="fa-solid fa-house"></i>
+            <p>خانه</p>
+        </a>
+        <a href="">
+            <i class="fa-solid fa-table"></i>
+            <p>دسته بندی</p>
+        </a>
+        <a href="">
+            <i class="fa-solid fa-cart-shopping"></i>
+            <p>سبد خرید</p>
+        </a>
+        <a href="">
+            <i class="fa-regular fa-user"></i>
+            <p>دیجی کالای من</p>
+        </a>
+    </section>
+
+
+CSS :
+    section.alter-footer>div {
+        display: flex;
+        flex-direction: column;
+        border-bottom: 1px solid #e0e0e2;
+    }
+    section.alter-footer>div>p {
+        display: flex;
+        justify-content: space-between;
+        padding: 12px 0px;
+    }
+    section.alter-footer>div>p>span {
+        font-size: 14px;
+    }
+    section.alter-footer>div>a {
+        color: #424750;
+        font-size: 13px;
+        margin-bottom: 12px;
+        display: none;
+    }
