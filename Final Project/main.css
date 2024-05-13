@@ -100,6 +100,9 @@ div.header-up>a:nth-of-type(1) {
 
 div.header-search {
     margin: 15px 40px 0px 0px;
+    padding: 10px;
+    background-color: #f0f0f1;
+    border-radius: 8px;
 }
 
 .fa-magnifying-glass:before,
@@ -116,6 +119,7 @@ input[type=search] {
     padding-right: 20px;
     border: none;
     height: 35px;
+    background-color: #f0f0f1;
 }
 
 input[type=search]::placeholder {
@@ -128,6 +132,52 @@ input[type=search]:focus {
     outline: none;
     border-bottom: 1px solid #8CDFE9;
 }
+input[type=search]:focus + div.focus-hidden {
+    display: flex;
+}
+/* div focus-hidden */
+/* div focus-hidden */
+div.focus-hidden {
+    position: absolute;
+    background-color: #f0f0f1;
+    display: none;
+    flex-direction: column;
+    padding: 12px 15px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+div.focus-hidden>img {
+    width: 560px;
+    height: 230px;
+    cursor: pointer;
+}
+div.focus-hidden>span {
+    padding: 10px 0px;
+    color: #3f4064;
+    cursor: pointer;
+}
+div.focus-hidden>span>i {
+    color: gray;
+    padding-left: 10px;
+}
+div.focus-hidden>div {
+    display: flex;
+    justify-content: flex-end;
+    gap: 8px;
+}
+div.focus-hidden>div>span {
+    border: 1px solid rgba(173, 173, 173, 0.308);
+    border-radius: 20px;
+    color: #3f4064;
+    padding: 6px 10px 8px 8px;
+    cursor: pointer;
+}
+div.focus-hidden>div>span>i {
+    font-size: 13px;
+    padding-right: 5px;
+}
+/* div login */
+/* div login */
 div.login {
     display: flex;
     align-items: center;
@@ -4442,7 +4492,7 @@ section.parts {
 
     section.styles>img {
         width: 45%;
-        height: 25vh;
+        height: 12vh;
         margin-bottom: 10px;
     }
 
