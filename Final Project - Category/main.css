@@ -164,7 +164,7 @@ section.main-mobile img {
     width: 45px;
     height: 45px;
 }
-section.main-mobile>details:nth-of-type(2)>div:nth-of-type(3)>a:nth-of-type(2)>div>img {
+section.main-mobile>details>div:last-child>a:last-child>div>img {
     width: 24px;
     height: 24px;
 }
@@ -183,6 +183,7 @@ details>div>a {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     width: 33%;
     padding: 8px;
     color: black;
