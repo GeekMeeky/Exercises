@@ -1,0 +1,527 @@
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
+    div.login {
+        left: 4%;
+    }
+    div.login > button {
+        width: 12vw;
+    }
+    div.login > button > a {
+        font-size: 14px;
+    }
+    div.header-down > ul {
+        width: 84%;
+    }
+    div.header-down > ul > li {
+        padding: 0px 5px;
+    }
+    div.header-down > ul > li > a {
+        font-size: 13px;
+    }
+    div.place {
+        left: 4%;
+    }
+    div.place > p {
+        font-size: 13px;
+    }
+    
+    /* Dropdown */
+    .dropdown:hover .dropdown-content {
+        width: 98%;
+    }
+    .dropleft {
+        right: 16%;
+    }
+    
+    /* Section story */
+    section.story {
+        width: 100%;
+    }
+    section.story > div:nth-of-type(10),
+    section.story > div:nth-of-type(11),
+    section.story > div:nth-of-type(12) {
+        display: none;
+    }
+    section.story > span {
+        width: 35px;
+        height: 35px;
+    }
+    
+    /* Section offer */
+    section.offer {
+        width: 95%;
+        overflow: hidden;
+    }
+    section.offer > div:last-child {
+        right: 92%;
+        width: 35px;
+        height: 35px;
+    }
+    
+    /* Section fresh */
+    section.fresh {
+        width: 95%;
+    }
+    div.fresh-item:nth-of-type(4),
+    div.fresh-item:nth-of-type(5),
+    div.fresh-item:nth-of-type(6) {
+        display: none;
+    }
+    section.fresh > a > span {
+        margin: 0px;
+    }
+    
+    /* Section styles */
+    section.styles {
+        width: 95%;
+    }
+    section.styles > img {
+        width: 24%;
+        height: 30vh;
+    }
+    
+    /* Section banner */
+    section.banner {
+        width: 95%;
+    }
+    section.banner > a {
+        width: 49%;
+    }
+    section.banner > a > img {
+        height: 32vh;
+    }
+    
+    /* Section suggest */
+    section.suggest {
+        width: 95%;
+    }
+    
+    /* Section brands */
+    section.brands {
+        width: 95%;
+    }
+    section.brands > div > a:nth-of-type(8),
+    section.brands > div > a:nth-of-type(9) {
+        display: none;
+    }
+    
+    /* Section visited */
+    section.visited {
+        width: 95%;
+    }
+    
+    /* Section digiplus */
+    section.digiplus {
+        width: 95%;
+    }
+    section.digiplus > div:nth-of-type(1) {
+        background-size: contain;
+        width: 25%;
+        background-position: 0 100%;
+    }
+    section.digiplus > div:nth-of-type(1) > button {
+        width: 10vw;
+        height: 7vh;
+    }
+    section.digiplus > div:nth-of-type(2) {
+        width: 75%;
+    }
+    div.plus-items > a > img {
+        width: 96px;
+        height: 96px;
+    }
+    section.digiplus > div:nth-of-type(2) > div:nth-of-type(1) > a {
+        right: 83%;
+    }
+    
+    /* Section digiclub */
+    section.digiclub {
+        width: 95%;
+    }
+    section.digiclub > div > span > a > div > img {
+        width: 118px;
+    }
+    
+    /* Section best-selling */
+    section.best-selling {
+        width: 95%;
+    }
+    div.sell-items > span {
+        width: 100%;
+    }
+    div.sell-items > span > p {
+        font-size: 14px;
+    }
+    
+    /* Section digimag */
+    section.digimag {
+        width: 95%;
+    }
+    section.digimag > div:nth-of-type(1) > a {
+        right: 80%;
+    }
+    div.mag-items > a > div:nth-of-type(1) {
+        height: 150px;
+    }
+    
+    /* Others */
+    div.back-to-top > button {
+        width: 13%;
+    }
+    section.information > div:nth-of-type(4) {
+        right: 73%;
+    }
+    div.social > a > i {
+        font-size: 30px;
+    }
+    div.social > a > img {
+        width: 30px;
+        height: 30px;
+    }
+    section.information > div > p {
+        font-size: 17px;
+    }
+    section.information > div > a {
+        font-size: 15px;
+    }
+    button[type=submit] {
+        font-size: 16px;
+        padding: 10px 13px;
+    }
+    div.footer-right {
+        width: 63%;
+    }
+    div.footer-right > p {
+        text-align: justify;
+    }
+    div.footer-left {
+        width: 36%;
+    }
+    div.footer-left > div {
+        padding: 8px 16px;
+    }
+}
+
+/* For Laptops */
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    button.poshtibani {
+        display: none;
+    }
+    div.up-header {
+        position: static;
+    }
+    div.header-up {
+        display: none;
+    }
+    div.header-down {
+        display: none;
+    }
+    
+    /* Section app-hide */
+    section.app-hide {
+        display: flex;
+    }
+    div.header-hide {
+        display: block;
+        border-bottom: 1px solid rgba(128, 128, 128, 0.319);
+        background-color: white;
+        padding-bottom: 5px;
+        padding-top: 1px;
+        position: sticky;
+        top: 0px;
+        z-index: 2;
+    }
+    div.header-hide > div > img {
+        width: 90px;
+        vertical-align: middle;
+        position: relative;
+        left: 24%;
+        bottom: 2px;
+    }
+    div.header-search {
+        margin: 10px 10px 0px 0px;
+    }
+    
+    /* Section story */
+    section.story > div:nth-of-type(9),
+    section.story > div:nth-of-type(10),
+    section.story > div:nth-of-type(11),
+    section.story > div:nth-of-type(12) {
+        display: none;
+    }
+    section.story > div > img {
+        width: 74px;
+        height: 74px;
+        border: 3px solid white;
+    }
+    section.story {
+        width: 100%;
+    }
+    section.story > div {
+        width: 12.5%;
+    }
+    section.story > div > p {
+        font-size: 10px;
+    }
+    section.story > span {
+        display: none;
+    }
+    
+    /* Slider */
+    div.slider {
+        height: 40vh;
+    }
+    div.slider > div {
+        display: none;
+    }
+    
+    /* Section options */
+    section.options {
+        flex-wrap: wrap;
+    }
+    section.options > div {
+        width: 25%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    section.options > div > a {
+        color: black;
+    }
+    section.options > div > p {
+        font-size: 14px;
+    }
+    section.options > div > a > p {
+        font-size: 14px;
+    }
+    
+    /* Section offer */
+    section.offer {
+        width: 100%;
+        border-radius: 0px;
+        margin: 30px auto;
+        height: 280px;
+    }
+    section.offer > div {
+        height: 240px;
+    }
+    section.offer > div:nth-of-type(2),
+    section.offer > div:nth-of-type(3),
+    section.offer > div:nth-of-type(4),
+    section.offer > div:nth-of-type(5) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    section.offer > div:nth-of-type(6),
+    section.offer > div:nth-of-type(7) {
+        display: none;
+    }
+    section.offer > div:nth-of-type(2) > img,
+    section.offer > div:nth-of-type(3) > img,
+    section.offer > div:nth-of-type(4) > img,
+    section.offer > div:nth-of-type(5) > img {
+        width: 120px;
+        height: 120px;
+    }
+    section.offer > div:not(div:nth-of-type(1)) {
+        width: 25%;
+        margin: 0px;
+        margin-right: 3px;
+    }
+    section.offer > div:not(div:nth-of-type(1)) > p {
+        text-align: center;
+        font-size: 12px;
+        padding: 15px 15px 0px 0px;
+    }
+    section.offer > div:last-child {
+        right: 0px;
+        display: none;
+    }
+    section.offer > div > div:nth-of-type(1) > div > div {
+        display: none;
+    }
+    section.offer > div > div:nth-of-type(2) > div {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    section.offer > div > div:nth-of-type(2) > div > img {
+        width: 120px;
+        height: 120px;
+    }
+    section.offer > div > div:nth-of-type(2) > div > p {
+        text-align: center;
+        font-size: 12px;
+        padding: 15px 15px 0px 0px;
+    }
+    
+    /* Section fresh */
+    section.fresh {
+        width: 100%;
+    }
+    div.fresh-item:nth-of-type(5),
+    div.fresh-item:nth-of-type(6) {
+        display: none;
+    }
+    div.fresh-item {
+        width: 33%;
+    }
+    div.fresh-item > a > img {
+        width: 90px;
+        height: 90px;
+    }
+    div.fresh-item > p {
+        font-size: 10px;
+        padding-top: 5px;
+    }
+    
+    /* Section styles */
+    section.styles {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    section.styles > img {
+        width: 25%;
+        height: 20vh;
+    }
+    
+    /* Section banner */
+    section.banner {
+        width: 100%;
+    }
+    section.banner > a {
+        width: 49%;
+    }
+    section.banner > a > img {
+        height: 28vh;
+    }
+    
+    /* Section suggest */
+    section.suggest {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    section.suggest > div {
+        width: 25%;
+    }
+    
+    /* Section brands */
+    section.brands {
+        width: 100%;
+    }
+    section.brands > div {
+        flex-wrap: wrap;
+    }
+    section.brands > div > a:nth-of-type(9) {
+        display: none;
+    }
+    section.brands > div > a {
+        width: 25%;
+    }
+    
+    /* Section visited */
+    section.visited {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    section.visited > div {
+        width: 33%;
+    }
+    section.visited > div > a > img {
+        width: 64px;
+        height: 64px;
+    }
+    
+    /* Section digiplus */
+    section.digiplus {
+        width: 100%;
+    }
+    section.digiplus > div:nth-of-type(1) {
+        width: 40%;
+    }
+    section.digiplus > div:nth-of-type(1) > button {
+        width: 9vw;
+        height: 5vh;
+    }
+    section.digiplus > div:nth-of-type(2) {
+        width: 60%;
+    }
+    div.plus-items > a > img {
+        width: 70px;
+        height: 70px;
+    }
+    section.digiplus > div:nth-of-type(2) > div:nth-of-type(1) > a {
+        right: 86%;
+    }
+    
+    /* Section digiclub */
+    section.digiclub {
+        width: 100%;
+    }
+    section.digiclub > div > span > a > div > img {
+        width: 90px;
+    }
+    
+    /* Section best-selling */
+    section.best-selling {
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    div.sell-items > span {
+        width: 32%;
+    }
+    div.sell-items > span > p {
+        font-size: 11px;
+    }
+    div.sell-items > span > p > span:nth-of-type(2) {
+        font-size: 10px;
+    }
+    
+    /* Section digimag */
+    section.digimag {
+        width: 100%;
+    }
+    section.digimag > div:nth-of-type(1) > a {
+        right: 83%;
+    }
+    div.mag-items > a > div:nth-of-type(1) {
+        height: 100px;
+    }
+    
+    /* Others */
+    div.back-to-top > button {
+        width: 14%;
+    }
+    section.information > div:nth-of-type(4) {
+        right: 74%;
+    }
+    div.social > a > i {
+        font-size: 24px;
+    }
+    div.social > a > img {
+        width: 24px;
+        height: 24px;
+    }
+    section.information > div > p {
+        font-size: 15px;
+    }
+    section.information > div > a {
+        font-size: 13px;
+    }
+    button[type=submit] {
+        font-size: 14px;
+        padding: 7px 10px;
+    }
+    div.footer-right {
+        width: 63%;
+    }
+    div.footer-right > p {
+        text-align: justify;
+    }
+    div.footer-left {
+        width: 36%;
+    }
+    div.footer-left > div {
+        padding: 8px 16px;
+    }
+}
